@@ -384,7 +384,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/san_vuon_camera_011.jpg')}}" alt="">
+                        <img src="{{asset('images/sanh_can_ho3.jpg')}}" alt="">
                         <div class="description">
                             <h3 class="framed">Garage</h3>
                         </div>
