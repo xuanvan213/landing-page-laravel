@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="index-v1.html" class="brand"><img src="{{asset('img/logo.png')}}" alt=""></a>
+                        <a href="index-v1.html" class="brand"><img src="{{asset('images/logo.png')}}" alt=""></a>
                     </div>
                     <!--end left-->
                     <div class="right">
@@ -107,7 +107,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter left and move 20px">
-                            <i class="icon"><img src="{{asset('img/icon-white-shield.png')}}" alt=""></i>
+                            <i class="icon"><img src="{{asset('images/icon-white-shield.png')}}" alt=""></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Modern & Safe Living</h3>
@@ -123,7 +123,7 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter bottom and move 20px">
-                            <i class="icon"><img src="{{asset('img/icon-white-pin.png')}}" alt=""></i>
+                            <i class="icon"><img src="{{asset('images/icon-white-pin.png')}}" alt=""></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Peaceful Location</h3>
@@ -139,7 +139,7 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter right and move 20px">
-                            <i class="icon"><img src="{{asset('img/icon-white-wallet.png')}}" alt=""></i>
+                            <i class="icon"><img src="{{asset('images/icon-white-wallet.png')}}" alt=""></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Great Starting Prices</h3>
@@ -159,7 +159,7 @@
             <!--end container-->
             <div class="background-wrapper">
                 <div class="bg-transfer opacity-15">
-                    <img src="{{asset('img/bg-01.jpg')}}" alt="">
+                    <img src="{{asset('images/sanh_can_ho1.jpg')}}" alt="">
                 </div>
                 <div class="background-color background-color-black"></div>
             </div>
@@ -192,7 +192,7 @@
                         <a href="http://vimeo.com/24506451" class="video-player video-popup" data-scroll-reveal="enter bottom and move 50px">
                             <i class="play-icon arrow_triangle-right"></i>
                             <div class="has-overlay">
-                                <img src="{{asset('img/image-video.jpg')}}" alt="">
+                                <img src="{{asset('images/image-video.jpg')}}" alt="">
                             </div>
                         </a>
                         <figure class="note">Let’s check the benefits of this project from the architect</figure>
@@ -376,7 +376,7 @@
                     <div class="container">
                         <img src="{{asset('images/cam12_day.jpg')}}" alt="">
                         <div class="description">
-                            <h3 class="framed">Front View</h3>
+                            <h3 class="framed">View Tòa Nhà</h3>
                         </div>
                     </div>
                     <!--end container-->
@@ -384,9 +384,19 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/sanh_can_ho3.jpg')}}" alt="">
+                        <img src="{{asset('images/san_vuon_camera_011.jpg')}}" alt="">
                         <div class="description">
-                            <h3 class="framed">Garage</h3>
+                            <h3 class="framed">View Sân Vườn</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/san_vuon_camera014.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">View Sân Vườn</h3>
                         </div>
                     </div>
                     <!--end container-->
@@ -396,7 +406,97 @@
                     <div class="container">
                         <img src="{{asset('images/san_vuon_camera013.jpg')}}" alt="">
                         <div class="description">
-                            <h3 class="framed">Back View</h3>
+                            <h3 class="framed">View Sân Vườn</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/san_vuon_camera010.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">View Sân Vườn</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_3phongngu.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_3phongngu_2.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_3phongngu_3.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Sảnh căn hộ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_3phongngu_4.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Sảnh căn hộ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_2phongngu_1.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_2phongngu_2.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_2phongngu_3.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Sảnh căn hộ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="{{asset('images/matbang_2phongngu_4.jpg')}}" alt="">
+                        <div class="description">
+                            <h3 class="framed">Sảnh căn hộ</h3>
                         </div>
                     </div>
                     <!--end container-->
@@ -625,7 +725,7 @@
                 <!--end testimonials-->
                 <div class="background-wrapper">
                     <div class="bg-transfer opacity-15">
-                        <img src="{{asset('img/gallery-big-01.jpg')}}" alt="">
+                        <img src="{{asset('images/sanh_van_phong2.jpg')}}" alt="">
                     </div>
                     <div class="background-color background-color-black"></div>
                 </div>
@@ -725,28 +825,28 @@
                 <div class="logos">
                     <div class="owl-carousel" data-owl-nav="1" data-owl-dots="0" data-owl-items="5">
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-1.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-1.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-2.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-2.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-3.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-3.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-4.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-4.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-5.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-5.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-6.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-6.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-7.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-7.png')}}" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('img/logo-8.png')}}" alt=""></a>
+                            <a href="#"><img src="{{asset('images/logo-8.png')}}" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -762,7 +862,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="{{asset('img/logo.png')}}" alt=""></a>
+            <a href="#" class="brand"><img src="{{asset('images/logo.png')}}" alt=""></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">
@@ -832,7 +932,7 @@
         <!--end container-->
         <div class="background-wrapper">
             <div class="bg-transfer opacity-30">
-                <img src="{{asset('img/footer-bg.jpg')}}" alt="">
+                <img src="{{asset('images/cam_08_day.jpg')}}" alt="">
             </div>
             <div class="background-color background-color-black"></div>
         </div>
@@ -850,7 +950,7 @@
             <div class="modal-header">
                 <div class="title">
                     <h4>Building A</h4>
-                    <h3>Floor 3</h3>
+                    <h3>Floor 10 - 18</h3>
                     <h1 class="modal-title">Apartment 01</h1>
                     <h2>$69,000</h2>
                 </div>
@@ -865,15 +965,17 @@
                     <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="{{asset('img/floor-plan.jpg')}}" class="image-popup"><img src="{{asset('img/floor-plan.jpg')}}" alt=""></a>
+                            <a href="{{asset('images/matbang_2phongngu_1.jpg')}}" class="image-popup"><img src="{{asset('images/matbang_2phongngu_1.jpg')}}" alt=""></a>
                             <div class="note">Click to zoom</div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
                             <div class="gallery">
                                 <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="{{asset('img/gallery-01.jpg')}}" alt="">
-                                    <img src="{{asset('img/image-video.jpg')}}" alt="">
-                                    <img src="{{asset('img/gallery-02.jpg')}}" alt="">
+                                    <img src="{{asset('images/matbang_2phongngu_2.jpg')}}" alt="">
+                                    <img src="{{asset('images/matbang_2phongngu_3.jpg')}}" alt="">
+                                    <img src="{{asset('images/matbang_2phongngu_4.jpg')}}" alt="">
+                                    <img src="{{asset('images/matbang_2phongngu_5.jpg')}}" alt="">
+                                    <img src="{{asset('images/matbang_2phongngu_6.jpg')}}" alt="">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -937,7 +1039,7 @@
 <script type="text/javascript">
     var latitude = 34.038405;
     var longitude = -117.946944;
-    var markerImage = "{{asset('img/map-marker.png')}}";
+    var markerImage = "{{asset('images/map-marker.png')}}";
     var mapTheme = "light";
     google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapTheme));
 </script>

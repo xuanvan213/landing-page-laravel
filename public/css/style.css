@@ -1304,6 +1304,8 @@ ul.check-marks li:before {
 }
 .big-gallery .slide img {
   width: 100%;
+  height: 632px;
+  cursor: pointer;
 }
 
 .blog-post {
@@ -1601,7 +1603,7 @@ ul.check-marks li:before {
 }
 .feature.has-icon i {
   position: absolute;
-  top: 0;
+  top: -16%;
   left: 0;
 }
 .feature.has-icon .description {
