@@ -26,16 +26,16 @@
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="index-v1.html" class="brand"><img src="{{asset('images/logo.png')}}" alt=""></a>
+                        <a href="index-v1.html" class="brand"><img src="/images/logo.jpg" alt="" ></a>
                     </div>
                     <!--end left-->
                     <div class="right">
                         <ul class="nav navigation-links animate">
-                            <li><a href="#page-top" class="scroll">Home</a></li>
-                            <li><a href="#about" class="scroll">About</a></li>
-                            <li><a href="#gallery" class="scroll">Gallery</a></li>
-                            <li><a href="#pricing" class="scroll">Pricing</a></li>
-                            <li><a href="#contact" class="scroll">Contact</a></li>
+                            <li><a href="#page-top" class="scroll">Trang Chủ</a></li>
+                            <li><a href="#about" class="scroll">Giới Thiệu</a></li>
+                            <li><a href="#gallery" class="scroll">Thư Viện</a></li>
+                            <li><a href="#pricing" class="scroll">Giá Bán</a></li>
+                            <li><a href="#contact" class="scroll">Liên Hệ</a></li>
                         </ul>
                         <div class="nav-btn">
                             <figure></figure>
@@ -53,9 +53,9 @@
             <div class="wrapper">
                 <div class="hero-title">
                     <div class="container">
-                        <h1 class="animate">Get Ready.<br>We're finishing!</h1>
+                        <h1 class="animate">Hãy Sẵn Sàng.<br>Chúng Tôi Đang Hoàn Thành</h1>
                         <form class="animate" id="form-hero">
-                            <label for="form-hero-email">Enter your email for the latest news</label>
+                            <label for="form-hero-email">Nhập email của bạn để biết tin tức mới nhất</label>
                             <div class="row">
                                 <div class="col-md-5 col-sm-5">
                                     <div class="input-group">
@@ -76,22 +76,22 @@
             <!--end wrapper-->
             <div class="owl-carousel" data-owl-dots="0" data-owl-nav="1" data-owl-autoplay="1" data-owl-loop="1" data-owl-fadeout="1">
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam_04_day.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_04_day.jpg" alt=""></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam11_night_blue.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam11_night_blue.jpg" alt=""></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam_08_day.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_08_day.jpg" alt=""></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam_02_day.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_02_day.jpg" alt=""></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam_10_day.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_10_day.jpg" alt=""></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="{{asset('images/cam12_day.jpg')}}" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam12_day.jpg" alt=""></div>
                 </div>
             </div>
             <!--end owl-carousel-->
@@ -107,14 +107,14 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter left and move 20px">
-                            <i class="icon"><img src="{{asset('images/icon-white-shield.png')}}" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-shield.png" alt=""></i>
                             <!--end icon-->
                             <div class="description">
-                                <h3>Modern & Safe Living</h3>
+                                <h3>Cuộc sống hiện đại & an toàn</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac ornare felis.
                                     Nam velit neque, blandit id placerat
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
                             <!--end description-->
                         </div>
@@ -123,14 +123,14 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter bottom and move 20px">
-                            <i class="icon"><img src="{{asset('images/icon-white-pin.png')}}" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-pin.png" alt=""></i>
                             <!--end icon-->
                             <div class="description">
-                                <h3>Peaceful Location</h3>
+                                <h3>Vị trí yên tĩnh</h3>
                                 <p>Mauris ac ornare felis. Nam velit neque, blandit id placerat eu, venenatis at purus.
                                     Nunc maximus ultrices lacus
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
                             <!--end description-->
                         </div>
@@ -139,14 +139,14 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter right and move 20px">
-                            <i class="icon"><img src="{{asset('images/icon-white-wallet.png')}}" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-wallet.png" alt=""></i>
                             <!--end icon-->
                             <div class="description">
-                                <h3>Great Starting Prices</h3>
+                                <h3>Giá khởi điểm tuyệt vời</h3>
                                 <p>Nam velit neque, blandit id placerat eu, venenatis at purus. Nunc maximus ultrices
                                     lacus eu fringilla.
                                 </p>
-                                <a href="" class="btn btn-default btn-rounded arrow">Read More</a>
+                                <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
                             <!--end description-->
                         </div>
@@ -159,7 +159,7 @@
             <!--end container-->
             <div class="background-wrapper">
                 <div class="bg-transfer opacity-15">
-                    <img src="{{asset('images/sanh_can_ho1.jpg')}}" alt="">
+                    <img src="/images/sanh_can_ho1.jpg" alt="">
                 </div>
                 <div class="background-color background-color-black"></div>
             </div>
@@ -169,19 +169,17 @@
 
         <div class="block" id="about">
             <div class="container">
-                <h2>About the project.</h2>
+                <h2>GIỚI THIỆU DỰ ÁN </h2>
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
-                        <h3>Place where you find yourself</h3>
-                        <p>Nam in sodales massa. Donec at ullamcorper diam. Pellentesque habitant morbi tristique
-                            senectus et netus et malesuada fames ac turpis egestas. Vivamus et ornare leo,
-                            a commodo tellus. Suspendisse potenti. Ut posuere viverra lectus non scelerisque.
+                        <h2>DỰ ÁN CĂN HỘ ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC</h2>
+                        <p>ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô  3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.
                         </p>
                         <ul class="check-marks">
-                            <li>Quite and peaceful location near the nature</li>
-                            <li>Shopping and fitness center right inside the complex</li>
-                            <li>Lot of parking places, even for your visitors</li>
-                            <li>Many play areas for your kids</li>
+                            <li>Dự án ST Moritz –  Biểu tượng thượng lưu trên đại lộ Phạm Văn Đồng</li>
+                            <li>ST Moritz – Dự án khu căn hộ và văn phòng hạng sang với pháp lý hoàn chỉnh</li>
+                            <li>Dự án văn phòng & căn hộ khách sạng 5 sao đầu tiên trên đại lộ Phạm Văn Đồng</li>
+                            <li>Dự án căn hộ & văn phòng hạng sang đầu tiên trên đại lộ Phạm Văn Đồng </li>
                         </ul>
                         <!--end ul-->
                     </div>
@@ -189,13 +187,10 @@
                     <!--end col-md-6-->
                     <div class="col-md-6 col-sm-6">
                         <h3>Video presentation</h3>
-                        <a href="http://vimeo.com/24506451" class="video-player video-popup" data-scroll-reveal="enter bottom and move 50px">
-                            <i class="play-icon arrow_triangle-right"></i>
-                            <div class="has-overlay">
-                                <img src="{{asset('images/image-video.jpg')}}" alt="">
-                            </div>
-                        </a>
-                        <figure class="note">Let’s check the benefits of this project from the architect</figure>
+                        <iframe width="620" height="315" src="https://www.youtube.com/embed/tvb92-lW4Wc" 
+                        frameborder="0" allow="accelerometer; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                        <figure class="note">Hãy kiểm tra những lợi ích của dự án này từ kiến ​​trúc</figure>
                         <!--end video-player-->
                     </div>
                     <!--end col-md-6-->
@@ -220,9 +215,9 @@
                             </div>
                             <!--end icon-->
                             <div class="description">
-                                <h3>1. Stage</h3>
-                                <h2>Planning</h2>
-                                <figure>Completed</figure>
+                                <h3>1. Giai đoạn</h3>
+                                <h2>Lập kế hoạch</h2>
+                                <figure>Đã hoàn thành</figure>
                             </div>
                             <!--end description-->
                         </div>
@@ -236,9 +231,9 @@
                             </div>
                             <!--end icon-->
                             <div class="description">
-                                <h3>2. Stage</h3>
-                                <h2>Building</h2>
-                                <figure>Completed</figure>
+                                <h3>2. Giai đoạn</h3>
+                                <h2>Xây dựng</h2>
+                                <figure>Trong tiến trình</figure>
                             </div>
                             <!--end description-->
                         </div>
@@ -252,9 +247,9 @@
                             </div>
                             <!--end icon-->
                             <div class="description">
-                                <h3>3. Stage</h3>
-                                <h2>Finishing works</h2>
-                                <figure>In progress</figure>
+                                <h3>3. Giai đoạn</h3>
+                                <h2>Hoàn thành công việc</h2>
+                                <figure>Trong tiến trình</figure>
                             </div>
                             <!--end description-->
                         </div>
@@ -268,9 +263,9 @@
                             </div>
                             <!--end icon-->
                             <div class="description">
-                                <h3>4. Stage</h3>
-                                <h2>Project done</h2>
-                                <figure>Not completed</figure>
+                                <h3>4. Giai đoạn</h3>
+                                <h2>Dự án đã hoàn thành</h2>
+                                <figure>Chưa hoàn thành</figure>
                             </div>
                             <!--end description-->
                         </div>
@@ -288,18 +283,18 @@
             <div class="container">
                 <div class="detail left-align">
                     <div class="title">
-                        <h3 class="framed">Architecture & Design</h3>
+                        <h3 class="framed">Sảnh Căn Hộ</h3>
                     </div>
                     <!--end title-->
                     <div class="row">
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter left and move 20px after">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="{{asset('images/sanh_can_ho1.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_can_ho2.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_can_ho3.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_can_ho4.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_can_ho5.jpg')}}" alt="">
+                                    <img src="/images/sanh_can_ho1.jpg" alt="">
+                                    <img src="/images/sanh_can_ho2.jpg" alt="">
+                                    <img src="/images/sanh_can_ho3.jpg" alt="">
+                                    <img src="/images/sanh_can_ho4.jpg" alt="">
+                                    <img src="/images/sanh_can_ho5.jpg" alt="">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -307,17 +302,22 @@
                         <!--end col-md-7-->
                         <div class="col-md-5 col-sm-5">
                             <div class="description" data-scroll-reveal="enter right and move 20px">
-                                <h4>High quality materials</h4>
-                                <p>Proin orci nisl, posuere viverra erat ut, pellentesque interdum urna. Curabitur
-                                    eu risus convallis, auctor augue id, pharetra neque. Morbi pretium neque ac varius
-                                    imperdiet. Aliquam sed sapien eget massa hendrerit aliquet. Integer auctor vel
-                                    ligula eget faucibus
-                                </p>
-                                <h4>Soundproof rooms</h4>
-                                <p>Donec tincidunt fermentum purus, eu pharetra arcu scelerisque a. Maecenas felis eros,
-                                    volutpat ac justo non, imperdiet porttitor lorem. Nulla suscipit mi a arcu sollicitudin,
-                                    sit amet
-                                </p>
+                                <h3>Các chức năng căn hộ</h3>
+                                <ul>
+                                    <li>Phòng khách</li>
+                                    <li>Phòng ngủ</li>
+                                    <li>Gian bếp</li>
+                                    <li>Phòng ăn</li>
+                                    <li>Khu vực sân phơi và lô gia</li>
+                                    <li>Một số căn hộ được thiết kế góc học tập hoặc phòng đọc sách đảm bảo không gian riêng biệt.</li>
+                                </ul>
+                                <h3>vật liệu xây dựng cao cấp</h3>
+                                <ul>
+                                    <li>Gạch Granite nhân tạo 60×60</li>
+                                    <li>Sàn gỗ</li>
+                                    <li>Cửa gỗ chống cháy</li>
+                                    <li>Thiết bị vệ sinh cao cấp của các thương hiệu Toto, American Standard, Johnson Suisse hoặc thương hiệu khác tương đương.</li>
+                                </ul>
                             </div>
                             <!--end description-->
                         </div>
@@ -328,18 +328,15 @@
                 <!--end detail-->
                 <div class="detail right-align">
                     <div class="title">
-                        <h3 class="framed">Warm & Cozy Interior</h3>
+                        <h3 class="framed">Sảnh Văn Phòng</h3>
                     </div>
                     <!--end title-->
                     <div class="row">
                         <div class="col-md-5 col-sm-5">
                             <div class="description" data-scroll-reveal="enter left and move 20px after">
-                                <h4>Feel your new home</h4>
-                                <p>Proin orci nisl, posuere viverra erat ut, pellentesque interdum urna. Curabitur
-                                    eu risus convallis, auctor augue id, pharetra neque. Morbi pretium neque ac varius
-                                    imperdiet. Aliquam sed sapien eget massa hendrerit aliquet. Integer auctor vel
-                                    ligula eget faucibus. Donec tincidunt fermentum purus, eu pharetra arcu scelerisque a.
-                                    Maecenas felis eros, volutpat ac justo non, imperdiet porttitor
+                                <h4>Tiện ích nội khu dự án ST Moritz</h4>
+                                <p>Đặc biệt, mỗi căn hộ đều được trang bị hệ thống khóa từ thông minh, hệ thống liên lạc nội bộ – intercom giúp đảm bảo an ninh tuyệt đối, giúp cư dân an tâm sinh sống và làm việc tại đây.
+                                Đối với căn hộ officetel ST.Moritz có diện tích nhỏ trung bình từ 43 – 56 m2 nhằm tối ưu hóa công năng và diện tích sử dụng. Sự đa năng của mô hình căn hộ văn phòng đảm bảo mang lại lợi ích kinh tế cho chủ nhân sở hữu, đồng thời tạo điều kiện để người làm việc phát huy tối đa năng suất và gia tăng thời gian làm việc.
                                 </p>
                             </div>
                             <!--end description-->
@@ -348,11 +345,11 @@
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter right and move 20px">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="{{asset('images/sanh_van_phong1.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_van_phong2.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_van_phong3.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_van_phong4.jpg')}}" alt="">
-                                    <img src="{{asset('images/sanh_van_phong5.jpg')}}" alt="">
+                                    <img src="/images/sanh_van_phong1.jpg" alt="">
+                                    <img src="/images/sanh_van_phong2.jpg" alt="">
+                                    <img src="/images/sanh_van_phong3.jpg" alt="">
+                                    <img src="/images/sanh_van_phong4.jpg" alt="">
+                                    <img src="/images/sanh_van_phong5.jpg" alt="">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -369,12 +366,12 @@
 
         <div class="block" id="gallery">
             <div class="container">
-                <h2>Gallery.</h2>
+                <h2>Thư Viện.</h2>
             </div>
             <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/cam12_day.jpg')}}" alt="">
+                        <img src="/images/cam12_day.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">View Tòa Nhà</h3>
                         </div>
@@ -384,7 +381,37 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/san_vuon_camera_011.jpg')}}" alt="">
+                        <img src="/images/cam_02_day.jpg" alt="">
+                        <div class="description">
+                            <h3 class="framed">View Tòa Nhà</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="/images/cam_04_day.jpg" alt="">
+                        <div class="description">
+                            <h3 class="framed">View Tòa Nhà</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="/images/cam_08_day.jpg" alt="">
+                        <div class="description">
+                            <h3 class="framed">View Tòa Nhà</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="/images/san_vuon_camera_011.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -394,7 +421,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/san_vuon_camera014.jpg')}}" alt="">
+                        <img src="/images/san_vuon_camera014.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -404,7 +431,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/san_vuon_camera013.jpg')}}" alt="">
+                        <img src="/images/san_vuon_camera013.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -414,7 +441,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/san_vuon_camera010.jpg')}}" alt="">
+                        <img src="/images/san_vuon_camera010.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -424,7 +451,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_3phongngu.jpg')}}" alt="">
+                        <img src="/images/matbang_3phongngu.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
                         </div>
@@ -434,7 +461,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_3phongngu_2.jpg')}}" alt="">
+                        <img src="/images/matbang_3phongngu_2.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
                         </div>
@@ -444,9 +471,9 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_3phongngu_3.jpg')}}" alt="">
+                        <img src="/images/matbang_3phongngu_3.jpg" alt="">
                         <div class="description">
-                            <h3 class="framed">Sảnh căn hộ</h3>
+                            <h3 class="framed">Mặt bằng 3 phòng ngủ</h3>
                         </div>
                     </div>
                     <!--end container-->
@@ -454,9 +481,9 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_3phongngu_4.jpg')}}" alt="">
+                        <img src="/images/matbang_3phongngu_4.jpg" alt="">
                         <div class="description">
-                            <h3 class="framed">Sảnh căn hộ</h3>
+                            <h3 class="framed">Mặt bằng 3 phòng ngủ</h3>
                         </div>
                     </div>
                     <!--end container-->
@@ -464,17 +491,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_2phongngu_1.jpg')}}" alt="">
-                        <div class="description">
-                            <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
-                        </div>
-                    </div>
-                    <!--end container-->
-                </div>
-                <!--end slide-->
-                <div class="slide">
-                    <div class="container">
-                        <img src="{{asset('images/matbang_2phongngu_2.jpg')}}" alt="">
+                        <img src="/images/matbang_2phongngu_1.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
                         </div>
@@ -484,7 +501,17 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_2phongngu_3.jpg')}}" alt="">
+                        <img src="/images/matbang_2phongngu_2.jpg" alt="">
+                        <div class="description">
+                            <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
+                        </div>
+                    </div>
+                    <!--end container-->
+                </div>
+                <!--end slide-->
+                <div class="slide">
+                    <div class="container">
+                        <img src="/images/matbang_2phongngu_3.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">Sảnh căn hộ</h3>
                         </div>
@@ -494,7 +521,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="{{asset('images/matbang_2phongngu_4.jpg')}}" alt="">
+                        <img src="/images/matbang_2phongngu_4.jpg" alt="">
                         <div class="description">
                             <h3 class="framed">Sảnh căn hộ</h3>
                         </div>
@@ -516,19 +543,19 @@
 
         <div class="block" id="pricing">
             <div class="container">
-                <h2>Pricing.</h2>
+                <h2>Giá Bán.</h2>
                 <div class="row">
                     <div class="pricing-boxes">
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box description">
-                                <h3>Choose your apartment</h3>
-                                <div class="price old">Old price</div>
-                                <div class="price">New price</div>
+                                <h3>Chọn Căn Hộ Của Bạn</h3>
+                                <div class="price old">Giá Cũ</div>
+                                <div class="price">Giá Mới</div>
                                 <div class="values">
-                                    <figure>Apartment area</figure>
-                                    <figure>Balcony area</figure>
-                                    <figure>Parking place</figure>
-                                    <figure>Free apartments</figure>
+                                    <figure>Khu Chung Cư</figure>
+                                    <figure>Khu Ban Công</figure>
+                                    <figure>Nơi Đỗ Xe</figure>
+                                    <figure>Căn Hộ Miễn Phí</figure>
                                 </div>
                             </div>
                             <!--end description-->
@@ -536,7 +563,7 @@
                         <!--end col-md-3-->
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px">
-                                <h3>2 Room Apartment</h3>
+                                <h3>Căn Hộ 2 Phòng Ngủ</h3>
                                 <div class="price old">$99,000</div>
                                 <div class="price">$79,000</div>
                                 <div class="values">
@@ -547,7 +574,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Contact us</a>
+                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -555,8 +582,8 @@
                         <!--end col-md-3-->
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed promoted" data-scroll-reveal="enter bottom and move 20px after 0.2s">
-                                <div class="promotion-title"><span>Best value for money</span></div>
-                                <h3>3 Room Apartment</h3>
+                                <div class="promotion-title"><span>Giá trị tốt nhất cho tiền</span></div>
+                                <h3>Căn Hộ 3 Phòng Ngủ</h3>
                                 <div class="price old">$99,000</div>
                                 <div class="price">$79,000</div>
                                 <div class="values">
@@ -567,7 +594,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Contact us</a>
+                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -575,7 +602,7 @@
                         <!--end col-md-3-->
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
-                                <h3>4 Room Apartment</h3>
+                                <h3>Văn Phòng</h3>
                                 <div class="price old">$129,000</div>
                                 <div class="price">$109,000</div>
                                 <div class="values">
@@ -586,7 +613,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Contact us</a>
+                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -602,14 +629,14 @@
 
         <div class="block">
             <div class="container">
-                <h2>FAQ.</h2>
+                <h2>Câu Hỏi Thường Gặp.</h2>
                 <div class="row">
                     <div class="col-md-8 col-sm-8 equal-height">
                         <div class="panel-group background-solid" id="faq" role="tablist" aria-multiselectable="true" data-scroll-reveal="enter left and move 20px after">
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="faq1">
                                     <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer1" aria-expanded="true" aria-controls="answer1">Quite and peaceful location near the nature</a>
+                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer1" aria-expanded="true" aria-controls="answer1">Vị trí yên tĩnh gần thiên nhiên</a>
                                     </h4>
                                 </div>
                                 <div id="answer1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faq1">
@@ -629,7 +656,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="faq2">
                                     <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer2" aria-expanded="true" aria-controls="answer2">Shopping and fitness center right inside the complex</a>
+                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer2" aria-expanded="true" aria-controls="answer2">Trung tâm mua sắm và thể dục ngay trong khu phức hợp</a>
                                     </h4>
                                 </div>
                                 <div id="answer2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq2">
@@ -648,7 +675,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="faq3">
                                     <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer3" aria-expanded="true" aria-controls="answer3">Lot of parking places, even for your visitors</a>
+                                        <a role="button" data-toggle="collapse" data-parent="#faq" href="#answer3" aria-expanded="true" aria-controls="answer3">Nhiều chỗ đậu xe, ngay cả cho khách của bạn</a>
                                     </h4>
                                 </div>
                                 <div id="answer3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
@@ -725,7 +752,7 @@
                 <!--end testimonials-->
                 <div class="background-wrapper">
                     <div class="bg-transfer opacity-15">
-                        <img src="{{asset('images/sanh_van_phong2.jpg')}}" alt="">
+                        <img src="/images/sanh_van_phong2.jpg" alt="">
                     </div>
                     <div class="background-color background-color-black"></div>
                 </div>
@@ -737,26 +764,23 @@
 
         <div class="block" id="contact">
             <div class="container">
-                <h2>Contact.</h2>
+                <h2>Liên Hệ.</h2>
                 <div class="contact map">
                     <div class="row">
                         <div class="col-md-6 col-sm-6"  data-scroll-reveal="enter bottom and move 20px">
-                            <h3>Map</h3>
+                            <h3>Bản Đồ</h3>
                             <div class="map" id="map"></div>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <h3>Address</h3>
+                                    <h3>Địa Chỉ</h3>
                                     <address>
-                                        Your Company<br>
-                                        4877 Spruce Drive<br>
-                                        West Newton, PA 15089<br>
+                                        đường Phạm Văn Đồng, phường Hiệp Bình Chánh, Quận Thủ Đức
                                         <br>
-                                        +1 (734) 123-4567<br>
-                                        <a href="#">hello@example.com</a>
+                                        0886 37 47 37 <br>
                                     </address>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
-                                    <h3>Social</h3>
+                                    <h3>Mạng Xã Hội</h3>
                                     <div class="social">
                                         <a href="#" class="roll-effect"><i class="social_facebook_circle"></i>Facebook</a>
                                         <a href="#"><i class="social_twitter_circle"></i>Twitter</a>
@@ -768,19 +792,19 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6" data-scroll-reveal="enter top and move 20px">
-                            <h3>Contact form</h3>
+                            <h3>Form Liên Hệ</h3>
                             <form id="form-contact" method="post" class="clearfix inputs-underline">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                            <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Họ Tên" required>
                                         </div>
                                         <!--end form-group -->
                                     </div>
                                     <!--end col-md-6 col-sm-6 -->
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                            <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Email" required>
                                         </div>
                                         <!--end form-group -->
                                     </div>
@@ -790,7 +814,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Your Message" required></textarea>
+                                            <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Tin Nhắn" required></textarea>
                                         </div>
                                         <!--end form-group -->
                                     </div>
@@ -798,7 +822,7 @@
                                 </div>
                                 <!--end row -->
                                 <div class="form-group clearfix">
-                                    <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Send a Message</button>
+                                    <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Gửi</button>
                                 </div>
                                 <!--end form-group -->
                                 <div id="form-contact-status"></div>
@@ -825,28 +849,28 @@
                 <div class="logos">
                     <div class="owl-carousel" data-owl-nav="1" data-owl-dots="0" data-owl-items="5">
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-1.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-1.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-2.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-2.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-3.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-3.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-4.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-4.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-5.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-5.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-6.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-6.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-7.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-7.png" alt=""></a>
                         </div>
                         <div class="logo">
-                            <a href="#"><img src="{{asset('images/logo-8.png')}}" alt=""></a>
+                            <a href="#"><img src="/images/logo-8.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -862,7 +886,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="{{asset('images/logo.png')}}" alt=""></a>
+            <a href="#" class="brand"><img src="/images/logo.jpg" alt=""></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">
@@ -874,8 +898,8 @@
                 <!--end col-md-4-->
                 <div class="col-md-8 col-sm-8">
                     <div class="contact-data text-align-right">
-                        <figure>+1 (734) 123-4567</figure>
-                        <a href="#">hello@archits.com</a>
+                        <figure>0886 37 47 37</figure>
+                        <a href="#">sale@datxanh.group</a>
                     </div>
                 </div>
                 <!--end col-md-8-->
@@ -885,12 +909,12 @@
             <div class="note">(C) 2016 All Rights Reserved</div>
             <!--end note-->
             <div class="numbers">
-                <h2>Bonus numbers.</h2>
+                <h2>Tiền Thưởng.</h2>
                 <div class="row">
                     <div class="col-md-2 col-sm-2">
                         <div class="number">
                             <figure>54</figure>
-                            <p>Projects done</p>
+                            <p>Dự án đã hoàn thành</p>
                         </div>
                         <!--end number-->
                     </div>
@@ -898,7 +922,7 @@
                     <div class="col-md-2 col-sm-2">
                         <div class="number">
                             <figure>21</figure>
-                            <p>Employees</p>
+                            <p>Nhân Viên</p>
                         </div>
                         <!--end number-->
                     </div>
@@ -906,7 +930,7 @@
                     <div class="col-md-2 col-sm-2">
                         <div class="number">
                             <figure>48</figure>
-                            <p>Satisfied Clients</p>
+                            <p>Khách hàng hài lòng</p>
                         </div>
                         <!--end number-->
                     </div>
@@ -914,7 +938,7 @@
                     <div class="col-md-2 col-sm-2">
                         <div class="number">
                             <figure>17</figure>
-                            <p>Prices Won</p>
+                            <p>Giá đã giành được</p>
                         </div>
                         <!--end number-->
                     </div>
@@ -932,7 +956,7 @@
         <!--end container-->
         <div class="background-wrapper">
             <div class="bg-transfer opacity-30">
-                <img src="{{asset('images/cam_08_day.jpg')}}" alt="">
+                <img src="/images/cam_08_day.jpg" alt="">
             </div>
             <div class="background-color background-color-black"></div>
         </div>
@@ -949,9 +973,9 @@
         <div class="modal-content">
             <div class="modal-header">
                 <div class="title">
-                    <h4>Building A</h4>
-                    <h3>Floor 10 - 18</h3>
-                    <h1 class="modal-title">Apartment 01</h1>
+                    <h4>Tòa nhà A</h4>
+                    <h3>Tầng 10 - 18</h3>
+                    <h1 class="modal-title">Căn hộ 01</h1>
                     <h2>$69,000</h2>
                 </div>
             </div>
@@ -971,11 +995,11 @@
                         <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
                             <div class="gallery">
                                 <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="{{asset('images/matbang_2phongngu_2.jpg')}}" alt="">
-                                    <img src="{{asset('images/matbang_2phongngu_3.jpg')}}" alt="">
-                                    <img src="{{asset('images/matbang_2phongngu_4.jpg')}}" alt="">
-                                    <img src="{{asset('images/matbang_2phongngu_5.jpg')}}" alt="">
-                                    <img src="{{asset('images/matbang_2phongngu_6.jpg')}}" alt="">
+                                    <img src="/images/matbang_2phongngu_2.jpg" alt="">
+                                    <img src="/images/matbang_2phongngu_3.jpg" alt="">
+                                    <img src="/images/matbang_2phongngu_4.jpg" alt="">
+                                    <img src="/images/matbang_2phongngu_5.jpg" alt="">
+                                    <img src="/images/matbang_2phongngu_6.jpg" alt="">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -986,22 +1010,22 @@
                 </div>
                 <!--end left-->
                 <div class="right">
-                    <h3>Parameters</h3>
+                    <h3>Thông số</h3>
                     <dl>
-                        <dt>Kitchen</dt>
+                        <dt>Nhà bếp</dt>
                         <dd>24m<sup>2</sup></dd>
-                        <dt>Master bedroom</dt>
+                        <dt>Phòng ngủ Master</dt>
                         <dd>58m<sup>2</sup></dd>
-                        <dt>Balcony</dt>
+                        <dt>Ban công</dt>
                         <dd>67m<sup>2</sup></dd>
                         <dt>Toilet</dt>
                         <dd>20m<sup>2</sup></dd>
-                        <dt>Living room</dt>
+                        <dt>Phòng khách</dt>
                         <dd>77m<sup>2</sup></dd>
-                        <dt>Passage</dt>
+                        <dt>Hành Lang</dt>
                         <dd>48m<sup>2</sup></dd>
                     </dl>
-                    <h3>Description</h3>
+                    <h3>Mô Tả</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula mauris at finibus efficitur.
                         Nulla facilisi. Proin sodales nibh id consequat mattis. Phasellus eu consequat nunc.

@@ -311,7 +311,7 @@ function initializeOwl(){
                 autoWidth: autoWidth,
                 items: items,
                 center: center,
-                loop: loop,
+                loop: true,
                 margin: margin,
                 nav: nav,
                 dots: dots,
