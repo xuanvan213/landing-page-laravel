@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
     <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
 
-    <title>Propper - Architecture & Real Estate Onepage Landing page HTML Template</title>
+    <title>DỰ ÁN CĂN HỘ ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC</title>
 
 </head>
 
@@ -180,6 +180,27 @@
                             <li>ST Moritz – Dự án khu căn hộ và văn phòng hạng sang với pháp lý hoàn chỉnh</li>
                             <li>Dự án văn phòng & căn hộ khách sạng 5 sao đầu tiên trên đại lộ Phạm Văn Đồng</li>
                             <li>Dự án căn hộ & văn phòng hạng sang đầu tiên trên đại lộ Phạm Văn Đồng </li>
+                            <li>Tên dự án: ST.Moritz</li>
+                            <li>Tên cũ: Opal SkyView</li>
+                            <li>Vị trí dự án: Mặt tiền Phạm Văn Đồng, P. Hiệp Bình Chánh, Q. Thủ Đức, Tp.HCM</li>
+                            <li>Chủ đầu tư: Đất Xanh Group</li>
+                            <li>Nhà thầu chính: Công Ty Cổ Phần Xây Dựng Phước Thành</li>
+                            <li>Tư vấn giám sát: Công Ty TNHH DV DT Và XD Quốc Tế ICIC</li>
+                            <li>Tư vấn thiết kế: Công ty Cổ phần Tư Vấn Xây Dựng Ánh Sáng Phương Nam</li>
+                            <li>Tư vấn thẩm tra: Công Ty CP TV Thiết Kế Công Nghiệp Và Dân Dụng IDCO</li>
+                            <li>Đơn vị thẩm định: Cục Quản Lý Hoạt Động Xây Dựng – Bộ Xây Dựng</li>
+                            <li>Quy mô dự án: 2,400.6 m²</li>
+                            <li>Tổng Diện tích Sàn xây dựng: 22,328.37 m²</li>
+                            <li>Tổng chiều cao: 73,8m</li>
+                            <li>Mật độ xây dựng: 43,7% (khối đế) và 42% (khối tháp)</li>
+                            <li>Sản phẩm: Căn hộ 2 phòng ngủ, căn hộ 3 phòng ngủ và Officetel & Shophouse</li>
+                            <li>Số block: 1 block chung cư</li>
+                            <li>Số tầng: 21 tầng nổi & 2 tầng hầm</li>
+                            <li>Tổng số lượng căn hộ: 170 căn (4 căn Shophouse – 63 căn Officetel – 103 căn hộ)</li>
+                            <li>Tiện ích nội khu: Hồ bơi Skyview, Khu công viên nội khu, Phòng gym & Café sân vườn, Camera an ninh, Hệ thống thẻ từ căn hộ, Hệ thống Video Call,..</li>
+                            <li>Khởi công ngày: 29/02/2020</li>
+                            <li>Ngày hoàn thành: 20/08/2021</li>
+                            <li>Pháp lý dự án: Giấy phép xây dựng số 21/GPXD  do sở xây dựng cấp ngày 25/02/2020</li>
                         </ul>
                         <!--end ul-->
                     </div>
@@ -697,14 +718,14 @@
                     <div class="col-md-4 col-sm-4 equal-height">
                         <div class="framed vertical-aligned-wrapper" data-scroll-reveal="enter right and move 20px">
                             <form class="inputs-underline vertical-aligned-element middle">
-                                <label>Subscribe to our newsletter to get the latest information</label>
+                                <label>Đăng ký bản tin của chúng tôi để nhận thông tin mới nhất</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" name="email" placeholder="Your email">
+                                    <input type="text" class="form-control" name="email" placeholder="Email">
                                     <span class="input-group-btn">
                                         <button class="btn" type="submit"><i class="arrow_right"></i></button>
                                     </span>
                                 </div><!-- /input-group -->
-                                <p class="note">*Only relevant information, no spam</p>
+                                <p class="note">*Chỉ thông tin có liên quan, không có thư rác</p>
                             </form>
                             <!--end form-->
                         </div>
