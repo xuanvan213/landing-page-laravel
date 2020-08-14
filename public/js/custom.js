@@ -305,7 +305,7 @@ function initializeOwl(){
                 navContainer: navContainer,
                 animateOut: fadeOut,
                 autoplaySpeed: 2000,
-                autoplayTimeout: 3000,
+                autoplayTimeout: 5000,
                 autoplay: true,
                 autoheight: 1,
                 autoWidth: autoWidth,
