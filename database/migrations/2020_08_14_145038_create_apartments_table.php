@@ -17,12 +17,12 @@ class CreateApartmentsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->integer('floors');
-            $table->string('descriptions');
+            $table->text('descriptions');
             $table->integer('project_id');
             $table->integer('rooms');
             $table->tinyInteger('status');
             $table->integer('index');
-            $table->string('type');
+            $table->tinyInteger('type');
         });
     }
 
