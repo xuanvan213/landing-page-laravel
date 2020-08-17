@@ -16,13 +16,13 @@
 
     <title>DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC | ANZBDS</title>
 
-    <link rel="shortcut icon" href="{{ Request::server ("SERVER_NAME") }}/images/logo.jpg" type="image/x-icon">
-    <link rel="icon" href="{{ Request::server ("SERVER_NAME") }}/images/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="https://moritz.anzbds.com/images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="https://moritz.anzbds.com/images/logo.jpg" type="image/x-icon">
 
     <meta property="og:title" content="DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC" /> 
     <meta property="og:type" content="article" /> 
-    <meta property="og:url" content="{{ Request::server ("SERVER_NAME") }}" /> 
-    <meta property="og:image" content="{{ Request::server ("SERVER_NAME") }}/images/cam12_day.jpg" /> 
+    <meta property="og:url" content="https://moritz.anzbds.com" /> 
+    <meta property="og:image" content="https://moritz.anzbds.com/images/cam12_day.jpg" /> 
     <meta property="og:description" content="ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel." /> 
     <meta property="og:site_name" content="DỰ ÁN CĂN HỘ ST MORITZ - ANZBDS" />
     <meta name="twitter:card" content="summary_large_image">
