@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ThemeStarz">
 
-    <link href="{{asset('fonts/font-awesome.css')}}" rel="stylesheet" type="text/css">
-    <link href="{{asset('fonts/elegant-fonts.css')}}" rel="stylesheet" type="text/css">
+    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 
     <title>DỰ ÁN CĂN HỘ ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC</title>
 
@@ -59,7 +59,7 @@
                             <div class="row">
                                 <div class="col-md-5 col-sm-5">
                                     <div class="input-group">
-                                        <input type="email" class="form-control" id="form-hero-email" name="email" placeholder="Your email" required="">
+                                        <input type="email" class="form-control" id="form-hero-email" name="email" placeholder="Email" required="">
                                         <span class="input-group-btn">
                                             <button class="btn" type="submit"><i class="arrow_right"></i></button>
                                         </span>
@@ -111,8 +111,7 @@
                             <!--end icon-->
                             <div class="description">
                                 <h3>Cuộc sống hiện đại & an toàn</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac ornare felis.
-                                    Nam velit neque, blandit id placerat
+                                <p>căn hộ ST.Moritz được trang bị như một khu văn phòng chuyên nghiệp với lối vào riêng, sảnh lễ tân, hệ thống thang máy dành riêng cho khách văn phòng…Vấn đề an ninh an toàn cho cộng đồng dân cư sinh sống luôn được chủ đầu tư ST.Moritz Đất Xanh đề cao, khi trạng bị hệ thống kiểm soát an ninh 24/24 và các dịch vụ quản lý tòa nhà chuyên nghiệp…
                                 </p>
                                 <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
@@ -127,8 +126,7 @@
                             <!--end icon-->
                             <div class="description">
                                 <h3>Vị trí yên tĩnh</h3>
-                                <p>Mauris ac ornare felis. Nam velit neque, blandit id placerat eu, venenatis at purus.
-                                    Nunc maximus ultrices lacus
+                                <p>Chung cư ST Moritztọa lạc tại khu dân cư hiện hữu, sầm uất, văn minh an toàn, tách biệt với những ồn ào bên ngoài, giúp cho gia đình bạn có được sự riêng tư, đồng thời cùng sở hữu những tiện ích tuyệt vời tại đây. Hứa hẹn sẽ là một môi trường đáng sống , đáng mơ ước cho gia đình bạn.
                                 </p>
                                 <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
@@ -143,8 +141,7 @@
                             <!--end icon-->
                             <div class="description">
                                 <h3>Giá khởi điểm tuyệt vời</h3>
-                                <p>Nam velit neque, blandit id placerat eu, venenatis at purus. Nunc maximus ultrices
-                                    lacus eu fringilla.
+                                <p>Giá bán: 54 Triệu VND/M2
                                 </p>
                                 <a href="" class="btn btn-default btn-rounded arrow">Đọc thêm</a>
                             </div>
@@ -171,48 +168,36 @@
             <div class="container">
                 <h2>GIỚI THIỆU DỰ ÁN </h2>
                 <div class="row">
-                    <div class="col-md-6 col-sm-6">
+                    <div class="col-md-12 col-sm-12">
                         <h2>DỰ ÁN CĂN HỘ ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC</h2>
                         <p>ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô  3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.
-                        </p>
-                        <ul class="check-marks">
-                            <li>Dự án ST Moritz –  Biểu tượng thượng lưu trên đại lộ Phạm Văn Đồng</li>
-                            <li>ST Moritz – Dự án khu căn hộ và văn phòng hạng sang với pháp lý hoàn chỉnh</li>
-                            <li>Dự án văn phòng & căn hộ khách sạng 5 sao đầu tiên trên đại lộ Phạm Văn Đồng</li>
-                            <li>Dự án căn hộ & văn phòng hạng sang đầu tiên trên đại lộ Phạm Văn Đồng </li>
-                            <li>Tên dự án: ST.Moritz</li>
-                            <li>Tên cũ: Opal SkyView</li>
-                            <li>Vị trí dự án: Mặt tiền Phạm Văn Đồng, P. Hiệp Bình Chánh, Q. Thủ Đức, Tp.HCM</li>
-                            <li>Chủ đầu tư: Đất Xanh Group</li>
-                            <li>Nhà thầu chính: Công Ty Cổ Phần Xây Dựng Phước Thành</li>
-                            <li>Tư vấn giám sát: Công Ty TNHH DV DT Và XD Quốc Tế ICIC</li>
-                            <li>Tư vấn thiết kế: Công ty Cổ phần Tư Vấn Xây Dựng Ánh Sáng Phương Nam</li>
-                            <li>Tư vấn thẩm tra: Công Ty CP TV Thiết Kế Công Nghiệp Và Dân Dụng IDCO</li>
-                            <li>Đơn vị thẩm định: Cục Quản Lý Hoạt Động Xây Dựng – Bộ Xây Dựng</li>
-                            <li>Quy mô dự án: 2,400.6 m²</li>
-                            <li>Tổng Diện tích Sàn xây dựng: 22,328.37 m²</li>
-                            <li>Tổng chiều cao: 73,8m</li>
-                            <li>Mật độ xây dựng: 43,7% (khối đế) và 42% (khối tháp)</li>
-                            <li>Sản phẩm: Căn hộ 2 phòng ngủ, căn hộ 3 phòng ngủ và Officetel & Shophouse</li>
-                            <li>Số block: 1 block chung cư</li>
-                            <li>Số tầng: 21 tầng nổi & 2 tầng hầm</li>
-                            <li>Tổng số lượng căn hộ: 170 căn (4 căn Shophouse – 63 căn Officetel – 103 căn hộ)</li>
-                            <li>Tiện ích nội khu: Hồ bơi Skyview, Khu công viên nội khu, Phòng gym & Café sân vườn, Camera an ninh, Hệ thống thẻ từ căn hộ, Hệ thống Video Call,..</li>
-                            <li>Khởi công ngày: 29/02/2020</li>
-                            <li>Ngày hoàn thành: 20/08/2021</li>
-                            <li>Pháp lý dự án: Giấy phép xây dựng số 21/GPXD  do sở xây dựng cấp ngày 25/02/2020</li>
-                        </ul>
+                        </p><br>
+                           Dự án ST Moritz –  Biểu tượng thượng lưu trên đại lộ Phạm Văn Đồng
+                            ST Moritz – Dự án khu căn hộ và văn phòng hạng sang với pháp lý hoàn chỉnh
+                            Dự án văn phòng & căn hộ khách sạng 5 sao đầu tiên trên đại lộ Phạm Văn Đồng
+                            Dự án căn hộ & văn phòng hạng sang đầu tiên trên đại lộ Phạm Văn Đồng 
+                            Tên dự án: ST.Moritz
+                            Tên cũ: Opal SkyView
+                            Vị trí dự án: Mặt tiền Phạm Văn Đồng, P. Hiệp Bình Chánh, Q. Thủ Đức, Tp.HCM
+                            Chủ đầu tư: Đất Xanh Group
+                            Nhà thầu chính: Công Ty Cổ Phần Xây Dựng Phước Thành.
+                            Tư vấn giám sát: Công Ty TNHH DV DT Và XD Quốc Tế ICIC.
+                            Tư vấn thiết kế: Công ty Cổ phần Tư Vấn Xây Dựng Ánh Sáng Phương Nam.
+                            Tư vấn thẩm tra: Công Ty CP TV Thiết Kế Công Nghiệp Và Dân Dụng IDCO.
+                            Đơn vị thẩm định: Cục Quản Lý Hoạt Động Xây Dựng – Bộ Xây Dựng.
+                            Quy mô dự án: 2,400.6 m².
+                            Tổng Diện tích Sàn xây dựng: 22,328.37 m².
+                            Tổng chiều cao: 73,8m.
+                            Mật độ xây dựng: 43,7% (khối đế) và 42% (khối tháp).
+                            Sản phẩm: Căn hộ 2 phòng ngủ, căn hộ 3 phòng ngủ và Officetel & Shophouse.
+                            Số block: 1 block chung cư.
+                            Số tầng: 21 tầng nổi & 2 tầng hầm.
+                            Tổng số lượng căn hộ: 170 căn (4 căn Shophouse – 63 căn Officetel – 103 căn hộ).
+                            Tiện ích nội khu: Hồ bơi Skyview, Khu công viên nội khu, Phòng gym & Café sân vườn, Camera an ninh, Hệ thống thẻ từ căn hộ, Hệ thống Video Call,..
+                            Khởi công ngày: 29/02/2020.
+                            Ngày hoàn thành: 20/08/2021.
+                            Pháp lý dự án: Giấy phép xây dựng số 21/GPXD  do sở xây dựng cấp ngày 25/02/2020.
                         <!--end ul-->
-                    </div>
-                    <!--end col-md-6-->
-                    <!--end col-md-6-->
-                    <div class="col-md-6 col-sm-6">
-                        <h3>Video presentation</h3>
-                        <iframe width="620" height="315" src="https://www.youtube.com/embed/tvb92-lW4Wc" 
-                        frameborder="0" allow="accelerometer; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                        <figure class="note">Hãy kiểm tra những lợi ích của dự án này từ kiến ​​trúc</figure>
-                        <!--end video-player-->
                     </div>
                     <!--end col-md-6-->
                 </div>
@@ -570,13 +555,13 @@
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box description">
                                 <h3>Chọn Căn Hộ Của Bạn</h3>
-                                <div class="price old">Giá Cũ</div>
                                 <div class="price">Giá Mới</div>
                                 <div class="values">
-                                    <figure>Khu Chung Cư</figure>
-                                    <figure>Khu Ban Công</figure>
+                                    <figure>Diện tích xây dựng</figure>
+                                    <figure>Phòng ngủ Master</figure>
+                                    <figure>Phòng ngủ con</figure>
                                     <figure>Nơi Đỗ Xe</figure>
-                                    <figure>Căn Hộ Miễn Phí</figure>
+                                    <figure>Không gian chung</figure>
                                 </div>
                             </div>
                             <!--end description-->
@@ -585,15 +570,15 @@
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px">
                                 <h3>Căn Hộ 2 Phòng Ngủ</h3>
-                                <div class="price old">$99,000</div>
-                                <div class="price">$79,000</div>
+                                <div class="price">54 Triệu VND/m<sup>2</sup></div>
                                 <div class="values">
-                                    <figure>83m<sup>2</sup></figure>
-                                    <figure>26m<sup>2</sup></figure>
-                                    <figure class="not-available"><i class="icon_close"></i></figure>
-                                    <figure>12</figure>
+                                    <figure>66.28m<sup>2</sup> - 75.33m<sup>2</sup></figure>
+                                    <figure>15.52m<sup>2</sup></figure>
+                                    <figure>11.52m<sup>2</sup></figure>
+                                    <figure class="available"><i class="icon_check"></i></figure>
+                                    <figure>35.29m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -603,17 +588,17 @@
                         <!--end col-md-3-->
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed promoted" data-scroll-reveal="enter bottom and move 20px after 0.2s">
-                                <div class="promotion-title"><span>Giá trị tốt nhất cho tiền</span></div>
+                                <div class="promotion-title"><span>Được ưa chuộng</span></div>
                                 <h3>Căn Hộ 3 Phòng Ngủ</h3>
-                                <div class="price old">$99,000</div>
-                                <div class="price">$79,000</div>
+                                <div class="price">54 Triệu VND/m<sup>2</sup></div>
                                 <div class="values">
-                                    <figure>135m<sup>2</sup></figure>
-                                    <figure>45m<sup>2</sup></figure>
+                                    <figure>108.23m<sup>2</sup> - 137.0m<sup>2</sup></figure>
+                                    <figure>22m<sup>2</sup></figure>
+                                    <figure>11.51m<sup>2</sup></figure>
                                     <figure class="available"><i class="icon_check"></i></figure>
-                                    <figure>7</figure>
+                                    <figure>58.45m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -623,16 +608,16 @@
                         <!--end col-md-3-->
                         <div class="col-md-3 col-sm-3">
                             <div class="price-box framed" data-scroll-reveal="enter bottom and move 20px after 0.4s">
-                                <h3>Văn Phòng</h3>
-                                <div class="price old">$129,000</div>
-                                <div class="price">$109,000</div>
+                                <h3>Văn Phòng</h3> <br>
+                                <div class="price">54 Triệu VND/m<sup>2</sup></div>
                                 <div class="values">
-                                    <figure>198m<sup>2</sup></figure>
-                                    <figure>67m<sup>2</sup></figure>
+                                    <figure>43m<sup>2</sup> - 56m<sup>2</sup></figure>
+                                    <figure>0m<sup>2</sup></figure>
+                                    <figure>0m<sup>2</sup></figure>
                                     <figure class="available"><i class="icon_check"></i></figure>
-                                    <figure>9</figure>
+                                    <figure>43m<sup>2</sup> - 56m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Apartment Details</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -662,11 +647,7 @@
                                 </div>
                                 <div id="answer1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="faq1">
                                     <div class="panel-body">
-                                        <p>Nunc vel erat eget dolor lobortis venenatis eget in nulla. Aliquam sodales
-                                            elit in augue finibus, at sagittis enim vestibulum.
-                                            Vivamus varius, velit sollicitudin interdum cursus, augue purus dignissim
-                                            quam, dictum commodo lorem ante quis neque. Etiam massa erat, tristique
-                                            id semper ac, placerat ac magna.
+                                        <p>Dự án Căn hộ ST Moritz Thủ Đức hội tụ ưu thế về vị trí lẫn tiện ích sống hiện đại được đánh giá cao trên thị trường bất động sản khu Đông TP HCM. Căn hộ ST.Moritz sở hữu 3 lợi thế chiến lược về vị trí của một dự án bất động sản đắc địa là: cận thị nằm trong nội đô, cận giang – hướng sông và cận lộ – gần những tuyến đường lớn.
                                         </p>
                                     </div>
                                     <!--/ .panel-body-->
@@ -682,11 +663,14 @@
                                 </div>
                                 <div id="answer2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq2">
                                     <div class="panel-body">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus
-                                            elit nibh, id scelerisque tortor ornare at. Maecenas finibus purus id massa
-                                            viverra, a commodo enim imperdiet. Donec ac magna non nisi hendrerit facilisis.
-                                            In a nisl mi. Fusce vulputate sodales laoreet. Phasellus et urna risus.
-                                        </p>
+                                        <ul class="check-marks">
+                                            <li>Hồ bơi SkyView</li>
+                                            <li>Công viên Sân vườn</li>
+                                            <li>Khu BBQ & Nhà hàng</li>
+                                            <li>Phòng gym và Yoga</li>
+                                            <li>Khu trung tâm thương mại Shophouse</li>
+                                            <li>Bãi đậu xe…</li>
+                                        </ul>
                                     </div>
                                     <!--/ .panel-body-->
                                 </div>
@@ -701,10 +685,7 @@
                                 </div>
                                 <div id="answer3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq3">
                                     <div class="panel-body">
-                                        <p>Donec ut pellentesque nunc. Maecenas malesuada et eros sed tristique. Cras
-                                            condimentum in ligula ac efficitur. Vestibulum tempor leo nec molestie bibendum.
-                                            Maecenas molestie ligula id efficitur venenatis. Maecenas venenatis mauris
-                                            in erat imperdiet, et suscipit ipsum pretium.
+                                        <p>Dự án có 2 tầng hầm để sử dụng làm bãi đậu xe cho cả ô tô  và xe máy. Đảm bảo chỗ đậu xe cho cư dân và khách của cư dân.
                                         </p>
                                     </div>
                                     <!--/ .panel-body-->
@@ -737,52 +718,6 @@
         </div>
         <!--end block-->
 
-        <div class="container">
-            <div class="block background-is-dark">
-                <div class="testimonials">
-                    <div class="row">
-                        <div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1">
-                            <div class="owl-carousel" data-owl-nav="0" data-owl-dots="1">
-                                <blockquote>
-                                    <p>Sed vel lorem et velit dictum rhoncus eget sed orci. Vestibulum ante ipsum primis in faucibus orci luctus et.</p>
-                                    <footer>John Doe
-                                        <figure>River Side Apartments</figure>
-                                    </footer>
-                                </blockquote>
-                                <!--end blockquote-->
-                                <blockquote>
-                                    <p>Ut ornare in dolor sit amet mollis. Aliquam molestie venenatis mi in efficitur. Lorem ipsum dolor sit amet</p>
-                                    <footer>Peter Brown
-                                        <figure>LTJ Investments</figure>
-                                    </footer>
-                                </blockquote>
-                                <!--end blockquote-->
-                                <blockquote>
-                                    <p>Quisque eleifend tempor odio, sit amet maximus tortor hendrerit sollicitudin. Quisque mollis non justo id bibendum</p>
-                                    <footer>Suzane J. Bright
-                                        <figure>Archits Company</figure>
-                                    </footer>
-                                </blockquote>
-                                <!--end blockquote-->
-                            </div>
-                        </div>
-                        <!--end col-md-8-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end testimonials-->
-                <div class="background-wrapper">
-                    <div class="bg-transfer opacity-15">
-                        <img src="/images/sanh_van_phong2.jpg" alt="">
-                    </div>
-                    <div class="background-color background-color-black"></div>
-                </div>
-                <!--end background-wrapper-->
-            </div>
-            <!--end block-->
-        </div>
-        <!--end container-->
-
         <div class="block" id="contact">
             <div class="container">
                 <h2>Liên Hệ.</h2>
@@ -792,23 +727,13 @@
                             <h3>Bản Đồ</h3>
                             <div class="map" id="map"></div>
                             <div class="row">
-                                <div class="col-md-6 col-sm-6">
+                                <div class="col-md-12 col-sm-12">
                                     <h3>Địa Chỉ</h3>
                                     <address>
-                                        đường Phạm Văn Đồng, phường Hiệp Bình Chánh, Quận Thủ Đức
+                                        Đường Phạm Văn Đồng, phường Hiệp Bình Chánh, Quận Thủ Đức
                                         <br>
                                         0886 37 47 37 <br>
                                     </address>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <h3>Mạng Xã Hội</h3>
-                                    <div class="social">
-                                        <a href="#" class="roll-effect"><i class="social_facebook_circle"></i>Facebook</a>
-                                        <a href="#"><i class="social_twitter_circle"></i>Twitter</a>
-                                        <a href="#"><i class="social_instagram_circle"></i>Instagram</a>
-                                        <a href="#"><i class="social_skype_circle"></i>Skype</a>
-                                    </div>
-                                    <!--end social-->
                                 </div>
                             </div>
                         </div>
@@ -860,47 +785,6 @@
         </div>
         <!--end block-->
 
-        <div class="container">
-            <hr>
-        </div>
-        <!--end container-->
-
-        <div class="block">
-            <div class="container">
-                <div class="logos">
-                    <div class="owl-carousel" data-owl-nav="1" data-owl-dots="0" data-owl-items="5">
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-1.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-2.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-3.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-4.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-5.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-6.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-7.png" alt=""></a>
-                        </div>
-                        <div class="logo">
-                            <a href="#"><img src="/images/logo-8.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-                <!--end logos-->
-            </div>
-            <!--end container-->
-        </div>
-        <!--end block-->
-
 
     </div>
     <!--end page-content-->
@@ -912,8 +796,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-4">
                     <p>
-                        Proin orci nisl, posuere viverra erat ut, pellentesque interdum urna. Curabitur eu risus convallis,
-                        auctor augue id, pharetra neque.
+                    ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.
                     </p>
                 </div>
                 <!--end col-md-4-->
@@ -927,7 +810,7 @@
             </div>
             <!--end row-->
             <hr>
-            <div class="note">(C) 2016 All Rights Reserved</div>
+            <div class="note">(C) 2016 All Rights Reserved -> 2020 &copy; FTCJSC - All Rights Reserved</div>
             <!--end note-->
             <div class="numbers">
                 <h2>Tiền Thưởng.</h2>
@@ -1010,7 +893,7 @@
                     <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="{{asset('images/matbang_2phongngu_1.jpg')}}" class="image-popup"><img src="{{asset('images/matbang_2phongngu_1.jpg')}}" alt=""></a>
+                            <a href="/images/matbang_2phongngu_1.jpg" class="image-popup"><img src="/images/matbang_2phongngu_1.jpg" alt=""></a>
                             <div class="note">Click to zoom</div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
@@ -1066,25 +949,25 @@
 <!--end modal-->
 
 <!--end outer-wrapper-->
-<script type="text/javascript" src="{{asset('js/jquery-2.2.1.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery-migrate-1.2.1.min.js')}}"></script>
+<script type="text/javascript" src="/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-<script type="text/javascript" src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery.validate.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/scrollReveal.min.js')}}"></script>
+<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="/js/scrollReveal.min.js"></script>
 <!--<script type="text/javascript" src="assets/js/jquery.appear.js"></script>-->
 <!--<script type="text/javascript" src="assets/js/waypoints.min.js"></script>-->
-<script type="text/javascript" src="{{asset('js/readmore.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/pace.min.js')}}"></script>
+<script type="text/javascript" src="/js/readmore.min.js"></script>
+<script type="text/javascript" src="/js/pace.min.js"></script>
 
-<script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
 
 <script type="text/javascript">
     var latitude = 34.038405;
     var longitude = -117.946944;
-    var markerImage = "{{asset('images/map-marker.png')}}";
+    var markerImage = "/images/map-marker.png";
     var mapTheme = "light";
     google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapTheme));
 </script>
