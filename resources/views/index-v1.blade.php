@@ -810,7 +810,7 @@
             </div>
             <!--end row-->
             <hr>
-            <div class="note">(C) 2016 All Rights Reserved -> 2020 &copy; FTCJSC - All Rights Reserved</div>
+            <div class="note">2020 &copy; FTCJSC - All Rights Reserved</div>
             <!--end note-->
             <div class="numbers">
                 <h2>Tiền Thưởng.</h2>
