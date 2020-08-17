@@ -803,7 +803,7 @@
                 <div class="col-md-8 col-sm-8">
                     <div class="contact-data text-align-right">
                         <figure>0886 37 47 37</figure>
-                        <a href="#">sale@datxanh.group</a>
+                        <a href="#">anzbds.com</a>
                     </div>
                 </div>
                 <!--end col-md-8-->
