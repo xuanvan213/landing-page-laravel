@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="ThemeStarz">
+    <meta name="author" content="FTC Joint Stock Company">
 
     <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
@@ -14,28 +14,39 @@
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
 
-    <title>DỰ ÁN CĂN HỘ ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC</title>
+    <title>DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC | ANZBDS</title>
+
+    <link rel="shortcut icon" href="{{ Request::root() }}/images/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="{{ Request::root() }}/images/logo.jpg" type="image/x-icon">
+
+    <meta property="og:title" content="DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC" /> 
+    <meta property="og:type" content="article" /> 
+    <meta property="og:url" content="{{ Request::root() }}" /> 
+    <meta property="og:image" content="{{ Request::root() }}/images/cam12_day.jpg" /> 
+    <meta property="og:description" content="ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel." /> 
+    <meta property="og:site_name" content="DỰ ÁN CĂN HỘ ST MORITZ - ANZBDS" />
+    <meta name="twitter:card" content="summary_large_image">
 
 </head>
 
 <body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
 
-<div class="page-wrapper" id="page-top">
+<div class="page-wrapper" id="du-an-moritz">
     <header id="page-header">
         <nav class="navigation background-is-dark">
             <div class="container">
                 <div class="wrapper">
                     <div class="left">
-                        <a href="index-v1.html" class="brand"><img src="/images/logo.jpg" alt="" ></a>
+                        <a href="/" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz" ></a>
                     </div>
                     <!--end left-->
                     <div class="right">
                         <ul class="nav navigation-links animate">
-                            <li><a href="#page-top" class="scroll">Trang Chủ</a></li>
-                            <li><a href="#about" class="scroll">Giới Thiệu</a></li>
-                            <li><a href="#gallery" class="scroll">Thư Viện</a></li>
-                            <li><a href="#pricing" class="scroll">Giá Bán</a></li>
-                            <li><a href="#contact" class="scroll">Liên Hệ</a></li>
+                            <li><a href="#du-an-moritz" class="scroll">Trang Chủ</a></li>
+                            <li><a href="#gioi-thieu-du-an-moritz" class="scroll">Giới Thiệu</a></li>
+                            <li><a href="#hinh-anh-du-an-moritz" class="scroll">Thư Viện</a></li>
+                            <li><a href="#gia-du-an-moritz" class="scroll">Giá Bán</a></li>
+                            <li><a href="#lien-he-du-an-moritz" class="scroll">Liên Hệ</a></li>
                         </ul>
                         <div class="nav-btn">
                             <figure></figure>
@@ -76,22 +87,22 @@
             <!--end wrapper-->
             <div class="owl-carousel" data-owl-dots="0" data-owl-nav="1" data-owl-autoplay="1" data-owl-loop="1" data-owl-fadeout="1">
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam_04_day.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_04_day.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam11_night_blue.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam11_night_blue.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam_08_day.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_08_day.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam_02_day.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_02_day.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam_10_day.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam_10_day.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
                 <div class="hero-slide">
-                    <div class="bg-transfer"><img src="/images/cam12_day.jpg" alt=""></div>
+                    <div class="bg-transfer"><img src="/images/cam12_day.jpg" alt="hình ảnh dự án moritz"></div>
                 </div>
             </div>
             <!--end owl-carousel-->
@@ -107,7 +118,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter left and move 20px">
-                            <i class="icon"><img src="/images/icon-white-shield.png" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-shield.png" alt="hình ảnh dự án moritz"></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Cuộc sống hiện đại & an toàn</h3>
@@ -122,7 +133,7 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter bottom and move 20px">
-                            <i class="icon"><img src="/images/icon-white-pin.png" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-pin.png" alt="hình ảnh dự án moritz"></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Vị trí yên tĩnh</h3>
@@ -137,7 +148,7 @@
                     <!--end col-md-4-->
                     <div class="col-md-4 col-sm-4">
                         <div class="feature has-icon" data-scroll-reveal="enter right and move 20px">
-                            <i class="icon"><img src="/images/icon-white-wallet.png" alt=""></i>
+                            <i class="icon"><img src="/images/icon-white-wallet.png" alt="hình ảnh dự án moritz"></i>
                             <!--end icon-->
                             <div class="description">
                                 <h3>Giá khởi điểm tuyệt vời</h3>
@@ -156,7 +167,7 @@
             <!--end container-->
             <div class="background-wrapper">
                 <div class="bg-transfer opacity-15">
-                    <img src="/images/sanh_can_ho1.jpg" alt="">
+                    <img src="/images/sanh_can_ho1.jpg" alt="sảnh căn hộ dự án moritz">
                 </div>
                 <div class="background-color background-color-black"></div>
             </div>
@@ -164,7 +175,7 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="about">
+        <div class="block" id="gioi-thieu-du-an-moritz">
             <div class="container">
                 <h2>GIỚI THIỆU DỰ ÁN </h2>
                 <div class="row">
@@ -296,11 +307,11 @@
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter left and move 20px after">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="/images/sanh_can_ho1.jpg" alt="">
-                                    <img src="/images/sanh_can_ho2.jpg" alt="">
-                                    <img src="/images/sanh_can_ho3.jpg" alt="">
-                                    <img src="/images/sanh_can_ho4.jpg" alt="">
-                                    <img src="/images/sanh_can_ho5.jpg" alt="">
+                                    <img src="/images/sanh_can_ho1.jpg" alt="sảnh căn hộ dự án moritz">
+                                    <img src="/images/sanh_can_ho2.jpg" alt="sảnh căn hộ dự án moritz">
+                                    <img src="/images/sanh_can_ho3.jpg" alt="sảnh căn hộ dự án moritz">
+                                    <img src="/images/sanh_can_ho4.jpg" alt="sảnh căn hộ dự án moritz">
+                                    <img src="/images/sanh_can_ho5.jpg" alt="sảnh căn hộ dự án moritz">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -351,11 +362,11 @@
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter right and move 20px">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="/images/sanh_van_phong1.jpg" alt="">
-                                    <img src="/images/sanh_van_phong2.jpg" alt="">
-                                    <img src="/images/sanh_van_phong3.jpg" alt="">
-                                    <img src="/images/sanh_van_phong4.jpg" alt="">
-                                    <img src="/images/sanh_van_phong5.jpg" alt="">
+                                    <img src="/images/sanh_van_phong1.jpg" alt="sảnh văn phòng dự án moritz">
+                                    <img src="/images/sanh_van_phong2.jpg" alt="sảnh văn phòng dự án moritz">
+                                    <img src="/images/sanh_van_phong3.jpg" alt="sảnh văn phòng dự án moritz">
+                                    <img src="/images/sanh_van_phong4.jpg" alt="sảnh văn phòng dự án moritz">
+                                    <img src="/images/sanh_van_phong5.jpg" alt="sảnh văn phòng dự án moritz">
                                 </div>
                             </div>
                             <!--end gallery-->
@@ -370,14 +381,14 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="gallery">
+        <div class="block" id="hinh-anh-du-an-moritz">
             <div class="container">
                 <h2>Thư Viện.</h2>
             </div>
             <div class="owl-carousel big-gallery" data-owl-items="3" data-owl-auto-width="1" data-owl-nav="1" data-owl-dots="0" data-owl-center="1" data-owl-loop="1" data-owl-nav-container="#big-gallery-nav">
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/cam12_day.jpg" alt="">
+                        <img src="/images/cam12_day.jpg" alt="hình ảnh dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Tòa Nhà</h3>
                         </div>
@@ -387,7 +398,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/cam_02_day.jpg" alt="">
+                        <img src="/images/cam_02_day.jpg" alt="hình ảnh dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Tòa Nhà</h3>
                         </div>
@@ -397,7 +408,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/cam_04_day.jpg" alt="">
+                        <img src="/images/cam_04_day.jpg" alt="hình ảnh dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Tòa Nhà</h3>
                         </div>
@@ -407,7 +418,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/cam_08_day.jpg" alt="">
+                        <img src="/images/cam_08_day.jpg" alt="hình ảnh dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Tòa Nhà</h3>
                         </div>
@@ -417,7 +428,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/san_vuon_camera_011.jpg" alt="">
+                        <img src="/images/san_vuon_camera_011.jpg" alt="sân vườn dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -427,7 +438,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/san_vuon_camera014.jpg" alt="">
+                        <img src="/images/san_vuon_camera014.jpg" alt="sân vườn dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -437,7 +448,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/san_vuon_camera013.jpg" alt="">
+                        <img src="/images/san_vuon_camera013.jpg" alt="sân vườn dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -447,7 +458,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/san_vuon_camera010.jpg" alt="">
+                        <img src="/images/san_vuon_camera010.jpg" alt="sân vườn dự án moritz">
                         <div class="description">
                             <h3 class="framed">View Sân Vườn</h3>
                         </div>
@@ -457,7 +468,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_3phongngu.jpg" alt="">
+                        <img src="/images/matbang_3phongngu.jpg" alt="phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
                         </div>
@@ -467,7 +478,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_3phongngu_2.jpg" alt="">
+                        <img src="/images/matbang_3phongngu_2.jpg" alt="phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 3 phòng ngủ</h3>
                         </div>
@@ -477,7 +488,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_3phongngu_3.jpg" alt="">
+                        <img src="/images/matbang_3phongngu_3.jpg" alt="phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt bằng 3 phòng ngủ</h3>
                         </div>
@@ -487,7 +498,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_3phongngu_4.jpg" alt="">
+                        <img src="/images/matbang_3phongngu_4.jpg" alt="mặt bằng 3 phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt bằng 3 phòng ngủ</h3>
                         </div>
@@ -497,7 +508,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_2phongngu_1.jpg" alt="">
+                        <img src="/images/matbang_2phongngu_1.jpg" alt="mặt bằng 2 phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
                         </div>
@@ -507,7 +518,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_2phongngu_2.jpg" alt="">
+                        <img src="/images/matbang_2phongngu_2.jpg" alt="mặt bằng 2 phòng ngủ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Mặt Bằng 2 phòng ngủ</h3>
                         </div>
@@ -517,7 +528,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_2phongngu_3.jpg" alt="">
+                        <img src="/images/matbang_2phongngu_3.jpg" alt="sảnh căn hộ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Sảnh căn hộ</h3>
                         </div>
@@ -527,7 +538,7 @@
                 <!--end slide-->
                 <div class="slide">
                     <div class="container">
-                        <img src="/images/matbang_2phongngu_4.jpg" alt="">
+                        <img src="/images/matbang_2phongngu_4.jpg" alt="sảnh căn hộ dự án moritz">
                         <div class="description">
                             <h3 class="framed">Sảnh căn hộ</h3>
                         </div>
@@ -547,9 +558,9 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="pricing">
+        <div class="block" id="gia-du-an-moritz">
             <div class="container">
-                <h2>Giá Bán.</h2>
+                <h2>Giá Bán</h2>
                 <div class="row">
                     <div class="pricing-boxes">
                         <div class="col-md-3 col-sm-3">
@@ -580,7 +591,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
+                                    <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -600,7 +611,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
+                                    <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -619,7 +630,7 @@
                                 </div>
                                 <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
-                                    <a href="" class="btn btn-rounded btn-primary">Liên Hệ</a>
+                                    <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
                             </div>
                             <!--end price-box-->
@@ -718,7 +729,7 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="contact">
+        <div class="block" id="lien-he-du-an-moritz">
             <div class="container">
                 <h2>Liên Hệ.</h2>
                 <div class="contact map">
@@ -732,13 +743,13 @@
                                     <address>
                                         Đường Phạm Văn Đồng, phường Hiệp Bình Chánh, Quận Thủ Đức
                                         <br>
-                                        0886 37 47 37 <br>
+                                        0917 998 688 <br>
                                     </address>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6" data-scroll-reveal="enter top and move 20px">
-                            <h3>Form Liên Hệ</h3>
+                            <h3>Liên Hệ</h3>
                             <form id="form-contact" method="post" class="clearfix inputs-underline">
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
@@ -791,7 +802,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="/images/logo.jpg" alt=""></a>
+            <a href="#" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz"></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">
@@ -802,7 +813,7 @@
                 <!--end col-md-4-->
                 <div class="col-md-8 col-sm-8">
                     <div class="contact-data text-align-right">
-                        <figure>0886 37 47 37</figure>
+                        <figure>0917 998 688</figure>
                         <a href="anzbds.com">anzbds.com</a>
                     </div>
                 </div>
@@ -813,7 +824,6 @@
             <div class="note">2020 &copy; FTCJSC - All Rights Reserved</div>
             <!--end note-->
             <div class="numbers">
-                <h2>Tiền Thưởng.</h2>
                 <div class="row">
                     <div class="col-md-2 col-sm-2">
                         <div class="number">
@@ -860,7 +870,7 @@
         <!--end container-->
         <div class="background-wrapper">
             <div class="bg-transfer opacity-30">
-                <img src="/images/cam_08_day.jpg" alt="">
+                <img src="/images/cam_08_day.jpg" alt="hình ảnh dự án moritz">
             </div>
             <div class="background-color background-color-black"></div>
         </div>
@@ -880,34 +890,34 @@
                     <h4>Tòa nhà A</h4>
                     <h3>Tầng 10 - 18</h3>
                     <h1 class="modal-title">Căn hộ 01</h1>
-                    <h2>$69,000</h2>
+                    <h2>Liên hệ</h2>
                 </div>
             </div>
             <!--end modal-header-->
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Floor plan</a></li>
-                        <li role="presentation"><a href="#modal-gallery-1" aria-controls="modal-gallery-1" role="tab" data-toggle="tab">Gallery</a></li>
+                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Cấu trúc</a></li>
+                        <li role="presentation"><a href="#modal-gallery-1" aria-controls="modal-gallery-1" role="tab" data-toggle="tab">Thư viện</a></li>
                     </ul>
                     <!--end nav-tabs-->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
-                            <a href="/images/matbang_2phongngu_1.jpg" class="image-popup"><img src="/images/matbang_2phongngu_1.jpg" alt=""></a>
-                            <div class="note">Click to zoom</div>
+                            <a href="/images/matbang_2phongngu_1.jpg" class="image-popup"><img src="/images/matbang_2phongngu_1.jpg" alt="hình ảnh dự án moritz"></a>
+                            <div class="note">Chọn để phóng to</div>
                         </div>
                         <div role="tabpanel" class="tab-pane fade" id="modal-gallery-1">
                             <div class="gallery">
                                 <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
-                                    <img src="/images/matbang_2phongngu_2.jpg" alt="">
-                                    <img src="/images/matbang_2phongngu_3.jpg" alt="">
-                                    <img src="/images/matbang_2phongngu_4.jpg" alt="">
-                                    <img src="/images/matbang_2phongngu_5.jpg" alt="">
-                                    <img src="/images/matbang_2phongngu_6.jpg" alt="">
+                                    <img src="/images/matbang_2phongngu_2.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_2phongngu_3.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_2phongngu_4.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_2phongngu_5.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_2phongngu_6.jpg" alt="hình ảnh dự án moritz">
                                 </div>
                             </div>
                             <!--end gallery-->
-                            <a href="http://vimeo.com/24506451" class="video-tour video-popup"><i class="play-icon arrow_triangle-right"></i>Click to take a video tour</a>
+                            {{-- <a href="http://vimeo.com/24506451" class="video-tour video-popup"><i class="play-icon arrow_triangle-right"></i>Click to take a video tour</a> --}}
                         </div>
                     </div>
                     <!--end tab-content-->
@@ -929,14 +939,14 @@
                         <dt>Hành Lang</dt>
                         <dd>48m<sup>2</sup></dd>
                     </dl>
-                    <h3>Mô Tả</h3>
+                    {{-- <h3>Mô Tả</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vehicula mauris at finibus efficitur.
                         Nulla facilisi. Proin sodales nibh id consequat mattis. Phasellus eu consequat nunc.
-                    </p>
+                    </p> --}}
                     <hr>
-                    <figure><a href="#" class="icon"><i class="fa fa-file-pdf-o"></i>Download PDF</a></figure>
-                    <figure><a href="#" class="icon"><i class="fa fa-file-image-o"></i>Download Brochure</a></figure>
+                   {{--  <figure><a href="#" class="icon"><i class="fa fa-file-pdf-o"></i>Download PDF</a></figure>
+                    <figure><a href="#" class="icon"><i class="fa fa-file-image-o"></i>Download Brochure</a></figure> --}}
                 </div>
                 <!--end right-->
             </div>
