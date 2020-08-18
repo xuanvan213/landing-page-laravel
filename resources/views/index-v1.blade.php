@@ -106,6 +106,40 @@
       }]
     }
     </script>
+
+    {{-- Mobile App --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Trang chủ",
+        "item": "https://moritz.anzbds.com/#du-an-moritz"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Giới thiệu",
+        "item": "https://moritz.anzbds.com/#gioi-thieu-du-an-moritz"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Thư viện",
+        "item": "https://moritz.anzbds.com/#hinh-anh-du-an-moritz"
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Gía bán",
+        "item": "https://moritz.anzbds.com/#gia-du-an-moritz"
+      },{
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Liên Hệ",
+        "item": "https://moritz.anzbds.com/#lien-he-du-an-moritz"
+      }]
+    }
+    </script>
 </head>
 
 <body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
