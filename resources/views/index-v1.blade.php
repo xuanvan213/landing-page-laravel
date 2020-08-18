@@ -975,7 +975,7 @@
             </div>
             <!--end numbers-->
             <div class="to-top">
-                <a href="#page-top" class="arrow-up framed scroll">
+                <a href="#du-an-moritz" class="arrow-up framed scroll">
                     <i class="arrow_up"></i>
                 </a>
             </div>
