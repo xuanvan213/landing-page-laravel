@@ -1,178 +1,7 @@
-<!DOCTYPE html>
+@extends('layouts.master')
 
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="FTC Joint Stock Company">
-
-    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-
-    <title>DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC | ANZBDS</title>
-
-    <link rel="shortcut icon" href="https://moritz.anzbds.com/images/logo.jpg" type="image/x-icon">
-    <link rel="icon" href="https://moritz.anzbds.com/images/logo.jpg" type="image/x-icon">
-
-    <meta property="og:title" content="DỰ ÁN MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC" /> 
-    <meta property="og:type" content="article" /> 
-    <meta property="og:url" content="https://moritz.anzbds.com" /> 
-    <meta property="og:image" content="https://moritz.anzbds.com/images/cam12_day.jpg" /> 
-    <meta property="og:description" content="ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel." /> 
-    <meta property="og:site_name" content="DỰ ÁN CĂN HỘ ST MORITZ - ANZBDS" />
-    <meta name="twitter:card" content="summary_large_image">
-
-    {{-- Google review --}}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org/",
-      "@type": "Product",
-      "name": "DỰ ÁN ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC",
-      "image": [
-        "https://moritz.anzbds.com/images/cam12_day.jpg",
-        "https://moritz.anzbds.com/images/sanh_van_phong2.jpg",
-        "https://moritz.anzbds.com/images/sanh_van_phong3.jpg",
-        "https://moritz.anzbds.com/images/sanh_van_phong4.jpg",
-        "https://moritz.anzbds.com/images/sanh_van_phong5.jpg"
-       ],
-      "description": "ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.",
-      "sku": "DUAN-STMORITZ-PVD-TD",
-      "mpn": "000001",
-      "brand": {
-        "@type": "Brand",
-        "name": "ST Moritz"
-      },
-      "review": {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Nguyen Tai"
-        }
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.4",
-        "reviewCount": "89"
-      },
-      "offers": {
-        "@type": "Offer",
-        "url": "https://anzbds.com/",
-        "priceCurrency": "USD",
-        "price": "1.500",
-        "priceValidUntil": "2020-11-20",
-        "seller": {
-          "@type": "Organization",
-          "name": "ANZ Bất Động SảnZ"
-        }
-      }
-    }
-    </script>
-    {{-- Google FAQPage --}}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "Giữ chỗ căn hộ ST Moritz bao nhiêu?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Căn hộ ST Moritz của Đất Xanh đang tiến hành giữ chỗ 100tr/suất!"
-        }
-      }, {
-        "@type": "Question",
-        "name": "Giá bán dự kiến khoảng bao nhiêu?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Giá bán dự án ST Moritz đang được truyền thông với: căn hộ giá từ 2.700$/m2 và văn phòng có giá từ 1.500$/m2."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Thời gian mở bán ST Moritz?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Hiện tại chưa công bố thời gian cụ thể mở bán! Vui lòng liên hệ 0902.714417 để được thông báo sớm nhất thời gian mở bán!"
-        }
-      }]
-    }
-    </script>
-
-    {{-- Mobile App --}}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Trang chủ",
-        "item": "https://moritz.anzbds.com/#du-an-moritz"
-      },{
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Giới thiệu",
-        "item": "https://moritz.anzbds.com/#gioi-thieu-du-an-moritz"
-      },{
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Thư viện",
-        "item": "https://moritz.anzbds.com/#hinh-anh-du-an-moritz"
-      },{
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Gía bán",
-        "item": "https://moritz.anzbds.com/#gia-du-an-moritz"
-      },{
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Liên Hệ",
-        "item": "https://moritz.anzbds.com/#lien-he-du-an-moritz"
-      }]
-    }
-    </script>
-</head>
-
-<body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
-
-<div class="page-wrapper" id="du-an-moritz">
-    <header id="page-header">
-        <nav class="navigation background-is-dark">
-            <div class="container">
-                <div class="wrapper">
-                    <div class="left">
-                        <a href="/" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz" ></a>
-                    </div>
-                    <!--end left-->
-                    <div class="right">
-                        <ul class="nav navigation-links animate">
-                            <li><a href="#du-an-moritz" class="scroll">Trang Chủ</a></li>
-                            <li><a href="#gioi-thieu-du-an-moritz" class="scroll">Giới Thiệu</a></li>
-                            <li><a href="#hinh-anh-du-an-moritz" class="scroll">Thư Viện</a></li>
-                            <li><a href="#gia-du-an-moritz" class="scroll">Giá Bán</a></li>
-                            <li><a href="#lien-he-du-an-moritz" class="scroll">Liên Hệ</a></li>
-                        </ul>
-                        <div class="nav-btn">
-                            <figure></figure>
-                            <figure></figure>
-                            <figure></figure>
-                        </div>
-                    </div>
-                    <!--end right-->
-                </div>
-            </div>
-            <!--end container-->
-        </nav>
         <!--end navigation-->
+        @section('hero-section')
         <div class="hero-section background-is-dark">
             <div class="wrapper">
                 <div class="hero-title">
@@ -220,10 +49,11 @@
             </div>
             <!--end owl-carousel-->
         </div>
+        @endsection
         <!--end hero-section-->
-    </header>
     <!--end page-header-->
 
+    @section('page-content')
     <div id="page-content">
 
         <div class="block background-is-dark">
@@ -702,7 +532,7 @@
                                     <figure class="available"><i class="icon_check"></i></figure>
                                     <figure>35.29m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#gia-ban-can-ho-2-phong-ngu-moritz">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -722,7 +552,7 @@
                                     <figure class="available"><i class="icon_check"></i></figure>
                                     <figure>58.45m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#gia-ban-can-ho-3-phong-ngu-moritz">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -741,7 +571,7 @@
                                     <figure class="available"><i class="icon_check"></i></figure>
                                     <figure>43m<sup>2</sup> - 56m<sup>2</sup></figure>
                                 </div>
-                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#floor-modal">Chi tiết căn hộ</a>
+                                <a href="#" class="btn btn-rounded btn-framed btn-light-frame btn-primary" data-toggle="modal" data-target="#gia-ban-can-van-phong-moritz">Chi tiết căn hộ</a>
                                 <div class="price-box-footer">
                                     <a href="#lien-he-du-an-moritz" class="btn btn-rounded btn-primary">Liên Hệ</a>
                                 </div>
@@ -911,90 +741,13 @@
 
 
     </div>
+    @endsection
     <!--end page-content-->
 
-    <footer id="page-footer" class="block background-is-dark">
-        <div class="container">
-            <a href="#" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz"></a>
-            <!--end brand-->
-            <div class="row">
-                <div class="col-md-4 col-sm-4">
-                    <p>
-                    ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.
-                    </p>
-                </div>
-                <!--end col-md-4-->
-                <div class="col-md-8 col-sm-8">
-                    <div class="contact-data text-align-right">
-                        <figure>0917 998 688</figure>
-                        <a href="anzbds.com">anzbds.com</a>
-                    </div>
-                </div>
-                <!--end col-md-8-->
-            </div>
-            <!--end row-->
-            <hr>
-            <div class="note">2020 &copy; FTCJSC - All Rights Reserved</div>
-            <!--end note-->
-            <div class="numbers">
-                <div class="row">
-                    <div class="col-md-2 col-sm-2">
-                        <div class="number">
-                            <figure>54</figure>
-                            <p>Dự án đã hoàn thành</p>
-                        </div>
-                        <!--end number-->
-                    </div>
-                    <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
-                        <div class="number">
-                            <figure>21</figure>
-                            <p>Nhân Viên</p>
-                        </div>
-                        <!--end number-->
-                    </div>
-                    <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
-                        <div class="number">
-                            <figure>48</figure>
-                            <p>Khách hàng hài lòng</p>
-                        </div>
-                        <!--end number-->
-                    </div>
-                    <!--col-md-2-->
-                    <div class="col-md-2 col-sm-2">
-                        <div class="number">
-                            <figure>17</figure>
-                            <p>Giá đã giành được</p>
-                        </div>
-                        <!--end number-->
-                    </div>
-                    <!--col-md-2-->
-                </div>
-                <!--end row-->
-            </div>
-            <!--end numbers-->
-            <div class="to-top">
-                <a href="#du-an-moritz" class="arrow-up framed scroll">
-                    <i class="arrow_up"></i>
-                </a>
-            </div>
-        </div>
-        <!--end container-->
-        <div class="background-wrapper">
-            <div class="bg-transfer opacity-30">
-                <img src="/images/cam_08_day.jpg" alt="hình ảnh dự án moritz">
-            </div>
-            <div class="background-color background-color-black"></div>
-        </div>
-        <!--end background-wrapper-->
-    </footer>
-    <!--end page-footer-->
-
-</div>
 <!--end page-wrapper-->
 
-<div class="modal fade apartment-selector" id="floor-modal" tabindex="-1" role="dialog">
+<!--modal gia-ban-can-ho-2-phong-ngu-moritz-->
+<div class="modal fade apartment-selector" id="gia-ban-can-ho-2-phong-ngu-moritz" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
         <div class="modal-content">
@@ -1010,12 +763,12 @@
             <div class="modal-body">
                 <div class="left">
                     <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#modal-floor-plan-1" aria-controls="modal-floor-plan-1" role="tab" data-toggle="tab">Cấu trúc</a></li>
+                        <li role="presentation" class="active"><a href="#modal-gia-ban-can-ho-2-phong-ngu-moritz" aria-controls="gia-ban-can-ho-2-phong-ngu-moritz" role="tab" data-toggle="tab">Cấu trúc</a></li>
                         <li role="presentation"><a href="#modal-gallery-1" aria-controls="modal-gallery-1" role="tab" data-toggle="tab">Thư viện</a></li>
                     </ul>
                     <!--end nav-tabs-->
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="modal-floor-plan-1">
+                        <div role="tabpanel" class="tab-pane fade in active" id="modal-gia-ban-can-ho-2-phong-ngu-moritz">
                             <a href="/images/matbang_2phongngu_1.jpg" class="image-popup"><img src="/images/matbang_2phongngu_1.jpg" alt="hình ảnh dự án moritz"></a>
                             <div class="note">Chọn để phóng to</div>
                         </div>
@@ -1039,18 +792,18 @@
                 <div class="right">
                     <h3>Thông số</h3>
                     <dl>
-                        <dt>Nhà bếp</dt>
-                        <dd>24m<sup>2</sup></dd>
                         <dt>Phòng ngủ Master</dt>
-                        <dd>58m<sup>2</sup></dd>
-                        <dt>Ban công</dt>
-                        <dd>67m<sup>2</sup></dd>
-                        <dt>Toilet</dt>
-                        <dd>20m<sup>2</sup></dd>
-                        <dt>Phòng khách</dt>
-                        <dd>77m<sup>2</sup></dd>
-                        <dt>Hành Lang</dt>
-                        <dd>48m<sup>2</sup></dd>
+                        <dd>15.52m<sup>2</sup></dd>
+                        <dt>Phòng ngủ Master</dt>
+                        <dd>11.52m<sup>2</sup></dd>
+                        <dt>Toilet 1</dt>
+                        <dd>4.57m<sup>2</sup></dd>
+                        <dt>Toilet 2</dt>
+                        <dd>3.83m<sup>2</sup></dd>
+                        <dt>Không gian chung</dt>
+                        <dd>35.29m<sup>2</sup></dd>
+                        <dt>Sân phơi</dt>
+                        <dd>2.75m<sup>2</sup></dd>
                     </dl>
                     {{-- <h3>Mô Tả</h3>
                     <p>
@@ -1071,29 +824,161 @@
 </div>
 <!--end modal-->
 
-<!--end outer-wrapper-->
-<script type="text/javascript" src="/js/jquery-2.2.1.min.js"></script>
-<script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="/js/scrollReveal.min.js"></script>
-<!--<script type="text/javascript" src="assets/js/jquery.appear.js"></script>-->
-<!--<script type="text/javascript" src="assets/js/waypoints.min.js"></script>-->
-<script type="text/javascript" src="/js/readmore.min.js"></script>
-<script type="text/javascript" src="/js/pace.min.js"></script>
-
-<script type="text/javascript" src="/js/custom.js"></script>
-
-<script type="text/javascript">
-    var latitude = 34.038405;
-    var longitude = -117.946944;
-    var markerImage = "/images/map-marker.png";
-    var mapTheme = "light";
-    google.maps.event.addDomListener(window, 'load', simpleMap(latitude, longitude, markerImage, mapTheme));
-</script>
-
-
-</body>
+<!--modal gia-ban-can-ho-3-phong-ngu-moritz-->
+<div class="modal fade apartment-selector" id="gia-ban-can-ho-3-phong-ngu-moritz" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="title">
+                    <h4>Tòa nhà A</h4>
+                    <h3>Tầng 19</h3>
+                    <h1 class="modal-title">Căn hộ 01</h1>
+                    <h2>Liên hệ</h2>
+                </div>
+            </div>
+            <!--end modal-header-->
+            <div class="modal-body">
+                <div class="left">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#modal-gia-ban-can-ho-3-phong-ngu-moritz" aria-controls="modal-gia-ban-can-ho-3-phong-ngu-moritz" role="tab" data-toggle="tab">Cấu trúc</a></li>
+                        <li role="presentation"><a href="#modal-gallery-2" aria-controls="modal-gallery-2" role="tab" data-toggle="tab">Thư viện</a></li>
+                    </ul>
+                    <!--end nav-tabs-->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="modal-gia-ban-can-ho-3-phong-ngu-moritz">
+                            <a href="/images/matbang_3phongngu.jpg" class="image-popup"><img src="/images/matbang_3phongngu.jpg" alt="hình ảnh dự án moritz"></a>
+                            <div class="note">Chọn để phóng to</div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-2">
+                            <div class="gallery">
+                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
+                                    <img src="/images/matbang_3phongngu.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_3phongngu_2.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_3phongngu_3.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_3phongngu_4.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/matbang_3phongngu_5.jpg" alt="hình ảnh dự án moritz">
+                                </div>
+                            </div>
+                            <!--end gallery-->
+                            {{-- <a href="http://vimeo.com/24506451" class="video-tour video-popup"><i class="play-icon arrow_triangle-right"></i>Click to take a video tour</a> --}}
+                        </div>
+                    </div>
+                    <!--end tab-content-->
+                </div>
+                <!--end left-->
+                <div class="right">
+                    <h3>Thông số</h3>
+                    <dl>
+                        <dt>Nhà bếp</dt>
+                        <dd>24m<sup>2</sup></dd>
+                        <dt>Phòng ngủ Master</dt>
+                        <dd>58m<sup>2</sup></dd>
+                        <dt>Phòng ngủ 2</dt>
+                        <dd>11.51m<sup>2</sup></dd>
+                        <dt>Phòng ngủ 3</dt>
+                        <dd>11.31m<sup>2</sup></dd>
+                        <dt>Ban công</dt>
+                        <dd>67m<sup>2</sup></dd>
+                        <dt>Toilet 1</dt>
+                        <dd>4.32m<sup>2</sup></dd>
+                        <dt>Toilet 2</dt>
+                        <dd>4.93m<sup>2</sup></dd>
+                        <dt>Không gian chung</dt>
+                        <dd>58.45m<sup>2</sup></dd>
+                        <dt>Sân phơi</dt>
+                        <dd>4.05m<sup>2</sup></dd>
+                    </dl>
+                    {{-- <h3>Mô Tả</h3>
+                        <ul class="check-marks">
+                            <li>Phòng khách</li>
+                            <li>Phòng ngủ</li>
+                            <li>Gian bếp</li>
+                            <li>Phòng ăn</li>
+                            <li>Khu vực sân phơi và lô gia</li>
+                            <li>Một số căn hộ được thiết kế góc học tập hoặc phòng đọc sách đảm bảo không gian riêng biệt.</li>
+                            <li>Gạch Granite nhân tạo 60×60</li>
+                            <li>Sàn gỗ</li>
+                            <li>Cửa gỗ chống cháy</li>
+                            <li>Thiết bị vệ sinh cao cấp của các thương hiệu Toto, American Standard, Johnson Suisse hoặc thương hiệu khác tương đương.</li>
+                        </ul>
+                        --}}
+                    <hr>
+                   {{--  <figure><a href="#" class="icon"><i class="fa fa-file-pdf-o"></i>Download PDF</a></figure>
+                    <figure><a href="#" class="icon"><i class="fa fa-file-image-o"></i>Download Brochure</a></figure> --}}
+                </div>
+                <!--end right-->
+            </div>
+            <!--end modal-body-->
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
+<!--modal gia-ban-can-ho-2-phong-ngu-moritz-->
+<div class="modal fade apartment-selector" id="gia-ban-can-van-phong-moritz" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="icon_close"></i></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="title">
+                    <h4>Tòa nhà A</h4>
+                    <h3>Tầng 03 - 09</h3>
+                    <h1 class="modal-title">Văn Phòng</h1>
+                    <h2>Liên hệ</h2>
+                </div>
+            </div>
+            <!--end modal-header-->
+            <div class="modal-body">
+                <div class="left">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#modal-gia-ban-can-van-phong-moritz" aria-controls="modal-gia-ban-can-van-phong-moritz" role="tab" data-toggle="tab">Cấu trúc</a></li>
+                        <li role="presentation"><a href="#modal-gallery-3" aria-controls="modal-gallery-3" role="tab" data-toggle="tab">Thư viện</a></li>
+                    </ul>
+                    <!--end nav-tabs-->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade in active" id="modal-gia-ban-can-van-phong-moritz">
+                            <a href="/images/sanh_van_phong1.jpg" class="image-popup"><img src="/images/sanh_van_phong1.jpg" alt="hình ảnh dự án moritz"></a>
+                            <div class="note">Chọn để phóng to</div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="modal-gallery-3">
+                            <div class="gallery">
+                                <div class="one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
+                                    <img src="/images/sanh_van_phong1.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/sanh_van_phong2.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/sanh_van_phong3.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/sanh_van_phong4.jpg" alt="hình ảnh dự án moritz">
+                                    <img src="/images/sanh_van_phong5.jpg" alt="hình ảnh dự án moritz">
+                                </div>
+                            </div>
+                            <!--end gallery-->
+                            {{-- <a href="http://vimeo.com/24506451" class="video-tour video-popup"><i class="play-icon arrow_triangle-right"></i>Click to take a video tour</a> --}}
+                        </div>
+                    </div>
+                    <!--end tab-content-->
+                </div>
+                <!--end left-->
+                <div class="right">
+                    <h3>Thông số</h3>
+                    <dl>
+                        <dt>Không gian sử dụng</dt>
+                        <dd>43m<sup>2</sup> - 56m<sup>2</sup></dd>
+                    </dl>
+                    {{-- <h3>Mô Tả</h3>
+                    <p>
+                    Đối với căn hộ officetel ST.Moritz có diện tích nhỏ trung bình từ 43 – 56 m2 nhằm tối ưu hóa công năng và diện tích sử dụng. Sự đa năng của mô hình căn hộ văn phòng đảm bảo mang lại lợi ích kinh tế cho chủ nhân sở hữu, đồng thời tạo điều kiện để người làm việc phát huy tối đa năng suất và gia tăng thời gian làm việc.
+                    </p> --}}
+                    <hr>
+                   {{--  <figure><a href="#" class="icon"><i class="fa fa-file-pdf-o"></i>Download PDF</a></figure>
+                    <figure><a href="#" class="icon"><i class="fa fa-file-image-o"></i>Download Brochure</a></figure> --}}
+                </div>
+                <!--end right-->
+            </div>
+            <!--end modal-body-->
+        </div>
+        <!--end modal-content-->
+    </div>
+    <!--end modal-dialog-->
+</div>
+<!--end modal-->
