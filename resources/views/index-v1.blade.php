@@ -27,6 +27,7 @@
     <meta property="og:site_name" content="DỰ ÁN CĂN HỘ ST MORITZ - ANZBDS" />
     <meta name="twitter:card" content="summary_large_image">
 
+    {{-- Google review --}}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -37,7 +38,7 @@
         "https://moritz.anzbds.com/images/sanh_van_phong2.jpg",
         "https://moritz.anzbds.com/images/sanh_van_phong3.jpg",
         "https://moritz.anzbds.com/images/sanh_van_phong4.jpg",
-        "https://moritz.anzbds.com/images/sanh_van_phong5.jpg",
+        "https://moritz.anzbds.com/images/sanh_van_phong5.jpg"
        ],
       "description": "ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.",
       "sku": "DUAN-STMORITZ-PVD-TD",
@@ -69,8 +70,6 @@
         "priceCurrency": "USD",
         "price": "1.500",
         "priceValidUntil": "2020-11-20",
-        "itemCondition": "https://schema.org/UsedCondition",
-        "availability": "https://schema.org/InStock",
         "seller": {
           "@type": "Organization",
           "name": "ANZ Bất Động SảnZ"
@@ -78,7 +77,35 @@
       }
     }
     </script>
-
+    {{-- Google FAQPage --}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Giữ chỗ căn hộ ST Moritz bao nhiêu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Căn hộ ST Moritz của Đất Xanh đang tiến hành giữ chỗ 100tr/suất!"
+        }
+      }, {
+        "@type": "Question",
+        "name": "Giá bán dự kiến khoảng bao nhiêu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Giá bán dự án ST Moritz đang được truyền thông với: căn hộ giá từ 2.700$/m2 và văn phòng có giá từ 1.500$/m2."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Thời gian mở bán ST Moritz?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Hiện tại chưa công bố thời gian cụ thể mở bán! Vui lòng liên hệ 0902.714417 để được thông báo sớm nhất thời gian mở bán!"
+        }
+      }]
+    }
+    </script>
 </head>
 
 <body class="has-loading-screen links-hover-effect" data-spy="scroll" data-target=".navigation">
