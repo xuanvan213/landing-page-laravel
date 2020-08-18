@@ -24,6 +24,9 @@ Body copy:		'Montserrat', sans-serif; 13px;
 Headers:		'Montserrat', sans-serif;
 
 -------------------------------------------------------------------*/
+.icon_check {
+  line-height: 2 !important;
+}
 /* 1. Header */
 .navigation {
   -moz-transition: 0.5s ease;
