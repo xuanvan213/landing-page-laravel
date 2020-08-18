@@ -33,9 +33,11 @@
       "@type": "Product",
       "name": "DỰ ÁN ST MORITZ PHẠM VĂN ĐỒNG THỦ ĐỨC",
       "image": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
+        "https://moritz.anzbds.com/images/cam12_day.jpg",
+        "https://moritz.anzbds.com/images/sanh_van_phong2.jpg",
+        "https://moritz.anzbds.com/images/sanh_van_phong3.jpg",
+        "https://moritz.anzbds.com/images/sanh_van_phong4.jpg",
+        "https://moritz.anzbds.com/images/sanh_van_phong5.jpg",
        ],
       "description": "ST Moritz (Saint Moritz) là dự án căn hộ chung cư tại Mặt tiền đường Phạm Văn Đồng, Phường Hiệp Bình Chánh, Quận Thủ Đức, Tp.HCM. Căn hộ ST.Moritz do Tập đoàn Đất Xanh Group làm chủ đầu tư sau nhiều thành công với chuỗi dự án Opal như: Opal Riverside, Opal Garden, Opal Skyview, Opal City, Opal Boulevard. Dự án ST Moritz với quy mô 3326 m2 với 1 block căn hộ cao 21 tầng với căn hộ chung cư & Officetel.",
       "sku": "DUAN-STMORITZ-PVD-TD",
