@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index');
-// Route::get('/ver1', function () {
-//     return view('index-v1');
-// });
+
+//route subcribes
+Route::get('/subcribes', 'HomeController@getSubcribes');
+Route::post('/subcribes', 'HomeController@sendEmailSubcribes');
+
+//route contact
+Route::get('/contact', 'HomeController@getcontact');
+Route::post('/contact', 'HomeController@sendEmailContacts');
+
