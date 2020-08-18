@@ -24,6 +24,15 @@ Body copy:		'Montserrat', sans-serif; 13px;
 Headers:		'Montserrat', sans-serif;
 
 -------------------------------------------------------------------*/
+.icon_check {
+  line-height: 2 !important;
+}
+.icon_hourglass {
+  line-height: 2 !important;
+}
+.icon_close {
+  line-height: 2 !important;
+}
 /* 1. Header */
 .navigation {
   -moz-transition: 0.5s ease;
@@ -1306,7 +1315,7 @@ ul.check-marks li:before {
 }
 .big-gallery .slide img {
   width: 100%;
-  height: 600px;
+  height: 700px;
   cursor: pointer;
 }
 
