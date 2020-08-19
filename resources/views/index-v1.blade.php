@@ -118,7 +118,7 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="gioi-thieu-du-an-moritz">
+        <div class="block about" id="gioi-thieu-du-an-moritz">
             <div class="container">
                 <h2>GIỚI THIỆU DỰ ÁN </h2>
                 <div class="row">
@@ -167,7 +167,7 @@
 
         <div class="block">
             <div class="container">
-                <div class="row">
+                <div class="row project-status">
                     <div class="col-md-3 col-sm-3">
                         <div class="stage completed" data-scroll-reveal="enter left and move 20px">
                             <div class="icon">
@@ -246,7 +246,7 @@
                         <h3 class="framed">Sảnh Căn Hộ</h3>
                     </div>
                     <!--end title-->
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter left and move 20px after">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
@@ -650,7 +650,7 @@
                         </div>
                         <!--/ .panel-group-->
                     </div>
-                    <div class="col-md-4 col-sm-4 equal-height">
+                    <div class="col-md-4 col-sm-4 equal-height form-questions" >
                         <div class="framed vertical-aligned-wrapper" data-scroll-reveal="enter right and move 20px">
                             <form class="inputs-underline vertical-aligned-element middle" method="post" action="{{ url('subcribes') }}">
                                 @csrf

@@ -146,7 +146,7 @@ class HomeController extends Controller
         $data = ['email'=>$request->email, 'name'=>$request->name, 'content'=>$request->content];
 
         Mail::send('emails.mailContact', $data, function ($message) {
-            $message->to('duan.anzbds@gmail.com');
+            $message->to('tainc.ftcjsc@gmail.com');
             $message->subject("Mail Contact Project ANZ Bất Động Sản");
             $message->from('duan.anzbds@gmail.com', 'Anzbds');
         });
