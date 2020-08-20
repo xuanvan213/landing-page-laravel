@@ -7,15 +7,15 @@
                 <div class="hero-title">
                     <div class="container">
                         <h1 class="animate">Hãy Sẵn Sàng.<br>Chúng Tôi Đang Hoàn Thành</h1>
-                        <form class="animate" id="form-hero">
+                        <form class="animate" action="{{ url('subcribes')}}" id="form-hero" method="post">
+                        @csrf
                             <label for="form-hero-email">Nhập email của bạn để biết tin tức mới nhất</label>
                             <div class="row">
                                 <div class="col-md-5 col-sm-5">
                                     <div class="input-group">
-                                        <input type="email" class="form-control" id="form-hero-email" name="email" placeholder="Email" required="">
-                                        <span class="input-group-btn">
-                                            <button class="btn" type="submit"><i class="arrow_right"></i></button>
-                                        </span>
+                                        <input type="email" class="form-control" id="form-hero-email" name="emailSubcribes" placeholder="Email" required="">
+                                        
+                                        <input type="submit" classe="btn btn-subcribes" style="color: black; padding: 3px;" value="subcribes">
                                     </div><!-- /input-group -->
                                 </div>
                             </div>
@@ -118,7 +118,7 @@
         </div>
         <!--end block-->
 
-        <div class="block" id="gioi-thieu-du-an-moritz">
+        <div class="block about" id="gioi-thieu-du-an-moritz">
             <div class="container">
                 <h2>GIỚI THIỆU DỰ ÁN </h2>
                 <div class="row">
@@ -167,7 +167,7 @@
 
         <div class="block">
             <div class="container">
-                <div class="row">
+                <div class="row project-status">
                     <div class="col-md-3 col-sm-3">
                         <div class="stage completed" data-scroll-reveal="enter left and move 20px">
                             <div class="icon">
@@ -246,7 +246,7 @@
                         <h3 class="framed">Sảnh Căn Hộ</h3>
                     </div>
                     <!--end title-->
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-md-7 col-sm-7">
                             <div class="gallery" data-scroll-reveal="enter left and move 20px after">
                                 <div class="owl-carousel one-item-carousel" data-owl-items="1" data-owl-margin="0" data-owl-nav="0" data-owl-dots="1">
@@ -650,15 +650,14 @@
                         </div>
                         <!--/ .panel-group-->
                     </div>
-                    <div class="col-md-4 col-sm-4 equal-height">
+                    <div class="col-md-4 col-sm-4 equal-height form-questions" >
                         <div class="framed vertical-aligned-wrapper" data-scroll-reveal="enter right and move 20px">
-                            <form class="inputs-underline vertical-aligned-element middle">
+                            <form class="inputs-underline vertical-aligned-element middle" method="post" action="{{ url('subcribes') }}">
+                                @csrf
                                 <label>Đăng ký bản tin của chúng tôi để nhận thông tin mới nhất</label>
                                 <div class="input-group">
-                                    <input type="text" class="form-control" name="email" placeholder="Email">
-                                    <span class="input-group-btn">
-                                        <button class="btn" type="submit"><i class="arrow_right"></i></button>
-                                    </span>
+                                    <input type="text" class="form-control" name="emailSubcribes" placeholder="Email">
+                                    <input type="submit" classe="btn btn-subcribes" style="color: black; padding: 3px;" value="subcribes">
                                 </div><!-- /input-group -->
                                 <p class="note">*Chỉ thông tin có liên quan, không có thư rác</p>
                             </form>
@@ -693,7 +692,8 @@
                         </div>
                         <div class="col-md-6 col-sm-6" data-scroll-reveal="enter top and move 20px">
                             <h3>Liên Hệ</h3>
-                            <form id="form-contact" method="post" class="clearfix inputs-underline">
+                            <form id="form-contact" action="{{ url('/contact') }}" method="post" class="clearfix inputs-underline">
+                            @csrf
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <div class="form-group">
@@ -714,16 +714,17 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <textarea class="form-control" id="form-contact-message" rows="8" name="message" placeholder="Tin Nhắn" required></textarea>
+                                            <textarea class="form-control" id="form-contact-message" rows="8" name="content" placeholder="Tin Nhắn" required></textarea>
                                         </div>
                                         <!--end form-group -->
                                     </div>
                                     <!--end col-md-12 -->
                                 </div>
                                 <!--end row -->
-                                <div class="form-group clearfix">
+                                <!-- <div class="form-group clearfix">
                                     <button type="submit" class="btn pull-right btn-primary btn-rounded" id="form-contact-submit">Gửi</button>
-                                </div>
+                                </div> -->
+                                <input type="submit" classe="btn pull-right btn-primary btn-rounded" style="color: black; padding: 3px;" value="Gửi">
                                 <!--end form-group -->
                                 <div id="form-contact-status"></div>
                             </form>
