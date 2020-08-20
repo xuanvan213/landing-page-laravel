@@ -8,7 +8,7 @@
 
     <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
@@ -267,7 +267,7 @@
 <!--end outer-wrapper-->
 <script type="text/javascript" src="/js/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
 <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
@@ -281,6 +281,37 @@
 <script type="text/javascript" src="/js/custom.js"></script>
 
 <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+      var lazyloadImages = document.querySelectorAll("img.lazy");    
+      var lazyloadThrottleTimeout;
+      
+      function lazyload () {
+        if(lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }    
+        
+        lazyloadThrottleTimeout = setTimeout(function() {
+            var scrollTop = window.pageYOffset;
+            lazyloadImages.forEach(function(img) {
+                if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                  img.src = img.dataset.src;
+                  img.classList.remove('lazy');
+                }
+            });
+            if(lazyloadImages.length == 0) { 
+              document.removeEventListener("scroll", lazyload);
+              window.removeEventListener("resize", lazyload);
+              window.removeEventListener("orientationChange", lazyload);
+            }
+        }, 20);
+      }
+      
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    });
+
+    
     var latitude = 34.038405;
     var longitude = -117.946944;
     var markerImage = "/images/map-marker.png";
