@@ -8,7 +8,7 @@
 
     <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='/fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="/css/magnific-popup.css" type="text/css">
@@ -267,7 +267,7 @@
 <!--end outer-wrapper-->
 <script type="text/javascript" src="/js/jquery-2.2.1.min.js"></script>
 <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+<script type="text/javascript" src="/maps.google.com/maps/api/js"></script>
 <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
