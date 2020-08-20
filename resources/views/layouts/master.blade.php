@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="FTC Joint Stock Company">
 
-    <link href="https://fonts/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
+    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/fonts/elegant-fonts.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="/css/owl.carousel.css" type="text/css">
