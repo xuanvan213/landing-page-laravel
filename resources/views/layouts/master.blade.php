@@ -75,7 +75,7 @@
         "priceValidUntil": "2020-11-20",
         "seller": {
           "@type": "Organization",
-          "name": "ANZ Bất Động SảnZ"
+          "name": "ANZ Bất Động Sản"
         }
       }
     }
