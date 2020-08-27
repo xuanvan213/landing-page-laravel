@@ -200,7 +200,7 @@
                 <div class="col-md-8 col-sm-8">
                     <div class="contact-data text-align-right">
                         <figure>0917 998 688</figure>
-                        <a href="anzbds.com">anzbds.com</a>
+                        <a href="https://anzbds.com">anzbds.com</a>
                     </div>
                 </div>
                 <!--end col-md-8-->
