@@ -188,7 +188,7 @@
 
     <footer id="page-footer" class="block background-is-dark">
         <div class="container">
-            <a href="#" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz"></a>
+            <a href="https://anzbds.com" class="brand"><img src="/images/logo.jpg" alt="hình ảnh dự án moritz"></a>
             <!--end brand-->
             <div class="row">
                 <div class="col-md-4 col-sm-4">
